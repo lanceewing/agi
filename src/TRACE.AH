@@ -1,0 +1,6 @@
+;TRACE.AH
+
+TRACE_OFF	equ	0
+TRACE_ON	equ	1
+TRACE_NEXT_ROOM	equ	2
+

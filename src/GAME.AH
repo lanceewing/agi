@@ -1,0 +1,217 @@
+;GAME.AH
+;Header file for King's Quest
+;
+;Change History
+;18/02/87  15:02:16	JAS
+;	Increased NUMCONTROL and KEYMAPSIZE to 50.
+
+YES	equ	1
+NO	equ	0
+
+
+STACKSIZE	equ	0a00h
+STACKFLAG	equ	0aaaah		;flag for base of stack
+
+;machine types
+PC	equ	0	;PC, XT
+JR	equ	1	;PCjr
+TD	equ	2	;Tandy 1000
+
+
+
+;*************** save area structure
+savearea	struc
+saNext		dw	0	;pointer to next save area
+saPrev		dw	0	;pointer to previous save area
+saObj		dw	0	;pointer to object
+saX		dw	0	;x position of save area
+saY		dw	0	;y position of save area
+saWidth		dw	0	;width of save area
+saHeight	dw	0	;height of save area
+saBitMap	dw	0	;save area bitmap
+savearea	ends
+
+
+VLOOPNUM	equ	30h	;virtual loop number mask
+MIRRORED	equ	80h	;mirrored loop bit flag
+
+;*************** cel structure
+celstrc	struc
+xdim		db	0	;x dimension of cel
+ydim 		db	0	;y dimension of cel
+skipclr		db	0	;skip color for the cel
+celcode		db	0	;code for cel
+celstrc	ends
+
+
+;*************** loop structure
+loopstrc	struc
+numcels		db	0	;number of cels in the loop
+celsofs		dw	0	;offsets to cels in the loop
+loopstrc	ends
+
+
+;*************** view structure
+viewstrc	struc
+stepsz		db	0	;step size of cels in view
+steptm		db	0	;step time of cels in view
+numloops	db	0	;number of loops in the view
+vdesc		dw	0	;offset to view description
+loopofs		dw	0	;offsets to the loops in the view
+viewstrc	ends
+
+
+;*************** object structure
+objstrc		struc
+name		dw	0	;name of object
+room		db	0	;room which object is in
+objstrc		ends
+
+
+;*************** animated object structure
+anistrc		struc
+movefreq	db	0	;number of animation cycles between motion
+moveclk		db	0	;number of cycles between moves of object
+num		db	0	;object number
+x		dw	0	;current x coordinate
+y		dw	0	;current y coordinate
+viewnum		db	0	;current view number
+viewptr		dw	0	;pointer to current view
+loop		db	0	;current loop in view
+loopcnt		db	0	;number of loops in view
+loopptr		dw	0	;pointer to current loop
+cel		db	0	;current cell in loop
+celcnt		db	0	;number of cells in current loop
+celptr		dw	0	;pointer to current cell
+prevcel		dw	0	;pointer to previous cell
+save		dw	0	;pointer to background save area
+prevx		dw	0	;previous x coordinate
+prevy		dw	0	;previous y coordinate
+xsize		dw	0	;x dimension of current cell
+ysize		dw	0	;y dimension of current cell
+stepsize	db	0	;distance object can move
+cyclfreq	db	0	;time interval between cells of object
+cycleclk	db	0	;counter for determining when object cycles
+dir		db	0	;object direction
+motion		db	0	;object motion type
+cycle		db	0	;cell cycling type
+pri		db	0	;priority of object
+control		dw	0	;object control flag (bit mapped)
+parms		db	4 dup (0) ;space for various motion parameters
+anistrc		ends
+
+
+;structure for input events
+eventstrc	struc
+type		db	0
+val		dw	0
+eventstrc	ends
+
+
+;structure for the keymap
+keymapstrc	struc
+key		dw	0
+keyval		dw	0
+keymapstrc	ends
+
+KEYMAPSIZE	equ	50
+
+
+NUMVARS		equ	256
+NUMFLAGS	equ	256
+NUMCONTROL	equ	50
+MAXWORDS	equ	10
+
+MAXVAR		equ	255
+NUMSTRINGS	equ	12
+STRLENGTH	equ	40
+
+SCRWIDTH	equ	40	;screen width
+TEXTLINES	equ	25	;number of lines of text
+PROMPTSTR	equ	0	;string number of prompt
+;STATUSROW	equ	21
+;INPUTROW	equ	23
+
+
+;object control bits
+DRAWN		equ	0001h	;1 -> object is drawn on screen
+IGNRBLK		equ	0002h	;1 -> object ignores blocks
+FIXEDPRI	equ	0004h	;1 -> object has fixed priority
+IGNRHRZ		equ	0008h	;1 -> object ignores the horizon
+UPDATE		equ	0010h	;1 -> update the object
+DOCYCLE		equ	0020h	;1 -> cycle the object
+ANIMATED	equ	0040h	;1 -> object is animated
+BLOCKED		equ	0080h	;1 -> object is blocked
+PRICTRL1	equ	0100h	;1 -> object must be on 'water' priority
+IGNROBJ		equ	0200h	;1 -> object won't collide with objects
+REPOS		equ	0400h	;1 -> object being reposn'd in this cycle
+PRICTRL2	equ	0800h	;1 -> object must not be entirely on water
+NOADVANC	equ	1000h	;1 -> don't advance object's cel in this loop
+FIXEDLOOP	equ	2000h	;1 -> object's loop is fixed
+STOPPED		equ	4000	;1 -> object did not move during last animation cycle */
+
+
+;object cycle definitions
+NORMAL		equ	0	;normal animation of ego -- go in current dir
+ENDLOOP		equ	1	;animate to end of loop
+RVRSLOOP	equ	2	;reverse of ENDLOOP
+REVERSE		equ	3	;cycle continually in reverse
+
+WANDER		equ	1	;random motion
+FOLLOW		equ	2	;follow an object
+MOVETO		equ	3	;move to a given coordinate
+
+;special room numbers
+LIMBO		equ	0	;room number of objects which are gone
+CARRYING	equ	255	;room number of object in ego's possession
+
+
+
+;System variables
+
+CURROOM		equ	0	;current.room
+PREVROOM	equ	1	;previous.room
+EGOEDGE		equ	2	;edge.ego.hit
+SCORE		equ	3	;score
+OBJHIT		equ	4	;obj.hit.edge
+OBJEDGE		equ	5	;edge.obj.hit
+EGOSDIR		equ	6	;ego's direction
+MAXSCORE	equ	7	;maximum possible score
+MEMLEFT		equ	8	;memory left in 256 byte pages
+UNKNOWN_WORD	equ	9	;number of unknown word
+ANIMATION_INT	equ	10	;animation interval
+SECONDS		equ	11
+MINUTES		equ	12	;time since game start
+HOURS		equ	13
+DAYS		equ	14
+DBL_CLK_DELAY	equ	15
+CURRENT_EGO	equ	16
+ERROR_NUM	equ	17
+ERROR_PARAM	equ	18
+LAST_CHAR	equ	19
+MACHINE_TYPE	equ	20
+PRINT_TIMEOUT	equ	21
+NUM_VOICES	equ	22
+ATTENUATION	equ	23
+INPUTLEN	equ	24
+MONITOR_TYPE	equ	26
+
+
+
+;System flags
+
+ONWATER		equ	0	;on.water
+SEE_EGO		equ	1	;can we see ego?
+INPUT		equ	2	;have.input
+HITSPEC		equ	3	;hit.special
+HADMATCH	equ	4	;had a word match
+INITLOGS	equ	5	;signal to initialize logics
+RESTART		equ	6	;is a restart in progress?
+FORGET_PICOBJ	equ	7	;forget picobjs after adding them
+DBL_CLK		equ	8	;enable double click on joystick
+SOUNDON		equ	9	;state of sound
+
+
+GRAPHMODE	equ	0
+TEXTMODE	equ	1
+

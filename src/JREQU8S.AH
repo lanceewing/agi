@@ -1,0 +1,38 @@
+;JREQU8S
+;Equates for PCjr graphics routines
+
+;graphics values
+
+jr_thsp_init	equ	2ch	;text horizontal sync position initial value
+jr_ghsp_init	equ	56h	;graphics horizontal sync position initial value
+td_thsp_init	equ	2dh	;text horizontal sync position initial value
+td_ghsp_init	equ	5ah	;graphics horizontal sync position initial value
+BANKS		equ	4	;# of graphics banks
+vid_lnth	equ	160	;length of one line in video/priority ram
+clr_lnth	equ	80	;# of words to clear per line 
+sro		equ	vid_lnth - (clr_lnth * 2)	;starting row offset
+vid_bgd		equ	0ffffh	;video background value
+scnd_vbnk	equ	2000h	;offset from 1st to 2nd bank of video ram
+next_vbnk	equ	2000h	;offset between banks of video ram
+vovr_flw	equ	7a3fh	;last video byte offset
+vrc_adjmt	equ	0000h	;video ram compression adjustment value
+vadjstmt	equ	7f60h	;video overflow/underflow adjustment value
+vbotm_ln	equ	79a0h	;left end of last video line
+nxt_vline	equ	1f60h	;offset from end of 1 line to start of the next
+pri_bgd		equ	4444h	;priority background value
+scnd_pbnk	equ	1a40h	;offset from 1st to 2nd bank of priority ram
+next_pbnk	equ	1a40h	;offset between banks of priority ram
+povr_flw	equ	68ffh	;last priority byte offset
+prc_adjmt	equ	05c0h	;priority ram compression adjustment value
+padjstmt	equ	6860h	;priority overflow/underflow adjustment value
+pbotm_ln	equ	6860h	;left end of last priority line
+shdw_lnth	equ	160	;length of one line in shadow ram
+scnd_sbnk	equ	1a40h	;offset from 1st to 2nd bank of shadow ram
+next_sbnk	equ	1a40h	;offset between banks of shadow ram
+sovr_flw	equ	68ffh	;last shadow byte offset
+frth_sbnk	equ	4ec0h	;starting offset of 4th shadow ram bank
+src_adjmt	equ	05c0h	;shadow ram compression adjustment value
+sadjstmt	equ	6860h	;shadow ram overflow/underflow adjustment value
+sbotm_ln	equ	6860h	;left end of last shadow line
+nxt_sline	equ	19a0h	;offset from end of 1 line to start of the next
+
