@@ -11,7 +11,7 @@ It makes for a great digital archeology story. Due to this slip up, the source c
 
 For more detail regarding this blunder, you can read my blog post below: 
 
-[The Space Quest II Master Disk Blunder](https://lanceewing.github.io/blog/sierra/agi/sq2/2024/05/10/do-you-own-this-space-quest-2-disk.html)
+[The Space Quest II Master Disk Blunder](https://lanceewing.github.io/blog/sierra/agi/sq2/2024/05/22/do-you-own-this-space-quest-2-disk.html)
 
 <br>
 
