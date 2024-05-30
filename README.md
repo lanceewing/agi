@@ -1,5 +1,5 @@
 # AGI
-This repository contains about 75% of the original source code of Sierra On-Line's AGI adventure game interpreter, complete with comments, and, in some cases, a change history containing programmer initials.
+This repository contains over 80% of the original source code of Sierra On-Line's AGI adventure game interpreter, complete with comments, and, in some cases, a change history containing programmer initials.
 
 These files were extracted from the unused parts of original Sierra AGI game disks, primarily from disk 1 of version 2.0D of Space Quest II (the 720KB version), and a few additional files from disk 1 of version 2.14 of King's Quest III (the 720KB version). Anyone who bought these versions of the games from Sierra On-Line unknowingly has a copy of the same original AGI source code files hiding on their disks. Back in the days when these games were best sellers for Sierra, there could very well have been tens of thousands, if not hundreds of thousands of people across the world who unknowingly had access to Sierra's AGI interpreter source code at their finger tips. Surprisingly, it wasn't until decades later that someone first noticed this, the first known discovery by onlne user NewRisingSun in October 2016.
 
