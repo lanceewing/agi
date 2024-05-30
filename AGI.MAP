@@ -1,0 +1,2201 @@
+
+Memory Map for AGI.EXE 10/07/87                                        Page 1  
+
+
+Groups:
+
+    Name          Address  Size  DSalloc
+    CGROUP             0   9B97
+    DGROUP          9BA0   1F10
+
+
+Symbols:
+    
+    Name                                                  Addr
+    $OVIN$                                                0:63B8
+    $OVLYM                                                0:63B8
+    $STRT$                                                0:  78
+    ABS                                                   0:49BC
+    ACCEPTINPUT                                           0:357B
+    ACTION                                                0: 29C
+    ACTIONTBL                                           9BA: 61D
+    ACTIVATEMENU                                        9BA:1D62
+    ADDF                                                  0:6FE9
+    ADDN                                                  0:6FDC
+    ADDOBJTOLIST                                          0: 407
+    ADDSCRIPT                                             0:6CF2
+    ADDTOPIC                                              0:2CD1
+    ADDTOPICF                                             0:2C49
+    ADVANCECEL                                            0:45CC
+    ALLINBACK                                             0:66CF
+    ALLTOSCREEN                                           0:66EC
+    ANIEND                                              9BA: 965
+    ANILEN                                              9BA: 967
+    ANIMATE                                               0: 53B
+    ANIMATEOBJ                                            0: 4CD
+    ANIOBJ                                              9BA: 963
+    ANITIMER                                            9BA:1820
+    ASSIGNF                                               0:6FC9
+    ASSIGNN                                               0:6FBC
+    ATOI                                                  0:4ADF
+    BACKCOLOR                                           9BA: 5CF
+    BACKTOSCRN                                            0:5197
+    BADPATHMSG                                          9BA:1C5C
+    BADWORD                                               0:1B9D
+    BEEP                                                  0:3C9F
+    BLK2SCRN                                              0:939C
+    BLOCK                                                 0:7782
+    BLOCKING                                            9BA: 13D
+    BUTTON                                              9BA:15CD
+    BUTTONTOCHAR                                          0:434D
+    CALLLOGIC                                             0:1232
+    CALLLOGICF                                            0:1258
+    CANBHERE                                              0:52F7
+    CANCELLINE                                            0:3409
+    CENTERPOSN                                            0: 8A4
+    CHANGEDISK                                            0:8227
+    CHANGEITEM                                            0:8EE3
+    CHARHEIGHT                                          9BA: D0B
+    CHKACAB                                               0:4309
+    CHKBLOCK                                              0: 6B1
+    CLEARCONTROL                                          0:493C
+    CLEARFLAGS                                            0:716B
+    CLEARLINE                                             0:2B36
+    CLEARRECT                                             0:2B54
+    CLOSE                                                 0:5991
+
+Memory Map for AGI.EXE 10/07/87                                        Page 2  
+
+    
+    Name                                                  Addr
+    CLOSEALLVOLS                                          0:2DED
+    CLOSEDIALOGUE                                         0:9923
+    CLOSELOGFILE                                          0:7F10
+    CLOSEWINDOW                                           0:1F01
+    CLOSEWNDW                                             0:525D
+    CLRLINES                                              0:2B08
+    CLRSHDWRAM                                            0:4EA8
+    CMPSTRINGS                                            0: 9B3
+    COLLIDE                                               0:4432
+    COLOR                                               9BA:1407
+    COLORFILL                                             0:4F8C
+    COLORTBL                                            9BA:1D76
+    COMPARESTRINGS                                        0: E84
+    COMPUTEMENUWINDOW                                     0:920F
+    CONDTEST                                              0:2918
+    CONFIGURESCREEN                                       0:7531
+    CONTCANCELMSG                                       9BA: C31
+    CONTROLLER                                          9BA:12B6
+    CONTROLLERSET                                         0: 909
+    CONVERTFREQTOPC                                       0:7D60
+    CONVERTTDVOLUME                                       0:7D43
+    CPEVNMSK                                            9BA:140A
+    CPODDMSK                                            9BA:1409
+    CREAT                                                 0:58EC
+    CRITICALERROR                                         0:813F
+    CRYPTKEY                                            9BA: 8E9
+    CURCHAR                                             9BA: 5D7
+    CURITEM                                             9BA:1D70
+    CURLOG                                              9BA: 979
+    CURMENU                                             9BA:1D6E
+    CURRENTCEL                                            0:3AD0
+    CURRENTDISK                                         9BA: ED0
+    CURRENTLOOP                                           0:3B08
+    CURRENTVIEW                                           0:3B40
+    CURSORSTATE                                           0:3546
+    DATASEG                                             9BA:174B
+    DEADSTACK                                             0:810C
+    DECREMENT                                             0:6FA9
+    DELSTR                                              9BA: C6D
+    DESELECT                                              0:91A9
+    DIALOGUEOPEN                                        9BA: D07
+    DIRECTIONKEY                                        9BA:174F
+    DIRINDEX                                              0:1705
+    DIRTRANSLATE                                          0:4401
+    DISABLEMENU                                           0:8EC4
+    DISCARDPIC                                            0:48E7
+    DISCARDVIEW                                           0:3BF0
+    DISKERR                                             9BA:10C2
+    DISKERROR                                             0:3D00
+    DISPLAY                                               0:2226
+    DISPLAYF                                              0:227D
+    DISPLAYINPUT                                          0:35BA
+    DISPLAYSTATUSLINE                                     0:31A0
+    DISTANCE                                              0:4508
+    DIVN                                                  0:708D
+    DIVV                                                  0:70A6
+    DOMENU                                                0:8F55
+    DOSCRIPT                                            9BA:17A9
+    DOSERROR                                            9BA:188D
+    DOTEST                                                0: 7BB
+
+Memory Map for AGI.EXE 10/07/87                                        Page 3  
+
+    
+    Name                                                  Addr
+    DRAWMASK                                            9BA:1405
+    DRAWOBJ                                               0: 9DE
+    DRAWPIC                                               0:6086
+    DRAWWNDW                                              0:93A2
+    DROP                                                  0:71B1
+    DRWHLINE                                              0:4EC0
+    DRWPICNC                                              0:6081
+    DRWVLINE                                              0:4EFC
+    DUPLICATE                                             0:59D3
+    EBHEAD                                              9BA:12A8
+    EBTAIL                                              9BA:12AA
+    ECHO                                                  0:3488
+    ECHOLINE                                              0:3436
+    EDITLINE                                              0:3335
+    ENABLEALLMENUS                                        0:8E92
+    ENABLEMENU                                            0:8E72
+    ENCRYPT                                               0: 783
+    ENDMOVEOBJ                                            0:1691
+    ENDOFLOOP                                             0:67EF
+    ENDSEG                                              9BA:1747
+    ENTERCMNDSTR                                        9BA:1E6E
+    EQUALF                                                0: 80C
+    EQUALN                                                0: 7FB
+    EQUIPCHK                                              0:3D95
+    ERASE                                                 0: A83
+    ERASECUR                                              0:3511
+    ERASEPOINTER                                          0:87F2
+    ERRBEEP                                               0:3CA8
+    ERROR                                                 0:3CCB
+    ESCAPECHAR                                          9BA: D0D
+    ESCQUITMSG                                          9BA: A8F
+    EXAMPLESAVENAME                                     9BA:13D5
+    EXIT                                                  0:  AE
+    EXTRACHAR                                           9BA: E7C
+    FILEDT                                                0:5AB2
+    FILLMEM                                               0:576B
+    FINDFIRST                                             0:5A40
+    FINDLOG                                               0:10E7
+    FINDNEXT                                              0:5A65
+    FINDPIC                                               0:4701
+    FINDPOSN                                              0:5579
+    FINDSND                                               0:4D29
+    FINDVIEW                                              0:365C
+    FINISHC                                             9BA:15A9
+    FINISH_COORDS                                       9BA:15A9
+    FIXLOOP                                               0:4694
+    FLAG                                                9BA: 109
+    FLAGPOSN                                              0:788B
+    FLOADLOG                                              0:1131
+    FLUSHBUTTONS                                          0:5F67
+    FLUSHKBD                                              0:4388
+    FOLLOW                                                0: B0E
+    FOLLOWEGO                                             0:6A43
+    FONTRAM                                             9BA:1411
+    FORCEUPDATE                                           0:6759
+    FORECOLOR                                           9BA: 5CD
+    FPRINTMSG                                             0:1BFF
+    FPRINTMSGAT                                           0:1C47
+    FREEALL                                               0:145D
+    FREEALLOBJLISTS                                       0:66B2
+
+Memory Map for AGI.EXE 10/07/87                                        Page 4  
+
+    
+    Name                                                  Addr
+    FREEMARK                                              0:1432
+    FREEOBJLIST                                           0: 305
+    FREESAVEAREA                                          0:8C8E
+    FSETPRIORITY                                          0:773C
+    GAMEID                                              9BA:   2
+    GAMEPAUSED                                          9BA: 615
+    GET                                                   0:7179
+    GETARGS                                               0:  C4
+    GETCHAR                                               0:56C8
+    GETCURDIR                                             0:59F1
+    GETCURDRIVE                                           0:5A29
+    GETDESCRIPTION                                        0:8723
+    GETDIALOGUE                                           0:98BB
+    GETDIR                                                0:5F80
+    GETDIRS                                               0:3FEE
+    GETF                                                  0:7195
+    GETFLAG                                               0:7152
+    GETGAME                                               0:8169
+    GETGAMENUMBER                                         0:8398
+    GETINPUT                                            9BA: 5D3
+    GETKEY                                                0:42B7
+    GETLINE                                               0: D81
+    GETMEM                                                0:13AE
+    GETMEMPTR                                             0:1408
+    GETMODE                                               0:56B3
+    GETMSGPTR                                             0:21C6
+    GETNUM                                                0:6E2E
+    GETOBJDIR                                             0:6C3D
+    GETOBJDIRS                                            0: 61C
+    GETPARM                                               0:8BBB
+    GETPATH                                               0:8289
+    GETPOSN                                               0:78D8
+    GETPRIORITY                                           0:7709
+    GETRANDOM                                             0:4C5B
+    GETROOMF                                              0:7223
+    GETSAVEAREA                                           0:8C1B
+    GETSEG                                                0:2DC6
+    GETSHDWOFST                                           0:52A5
+    GETSTR                                                0:40D6
+    GETSTRING                                             0: C1C
+    GETVIDOFST                                            0:5275
+    GETWINDOWSTR                                          0:8318
+    GHRZ_POS                                            9BA:1401
+    GOODPOS                                               0:5653
+    GRAFSCRN                                              0:9396
+    GRAPHICSSCREEN                                        0:750C
+    GREATERF                                              0: 85C
+    GREATERN                                              0: 84B
+    HALFTONE                                            9BA: E7A
+    HALFTONECHAR                                          0:2BC5
+    HAS                                                   0: 885
+    HAVEKEY                                               0: 996
+    HB2S                                                  0:94B6
+    HBS                                                   0:9429
+    HCVB                                                  0:95C6
+    HDW                                                   0:9516
+    HEAPBASE                                            9BA: A4F
+    HIG                                                   0:93A5
+    HIO                                                   0:9A1F
+    HIRT                                                  0:95A4
+
+Memory Map for AGI.EXE 10/07/87                                        Page 5  
+
+    
+    Name                                                  Addr
+    HOLDKEY                                               0:5C6E
+    HORIZON                                             9BA: 12D
+    HRSB                                                  0:99B4
+    HSH                                                   0:9428
+    HSP_ADJMT                                           9BA:1403
+    HSS                                                   0:9773
+    HSSB                                                  0:9949
+    HTS                                                   0:93F9
+    HVIDEOINT                                             0:95DA
+    H_RAM                                               9BA:140F
+    IGNOREBLOCKS                                          0:77D0
+    IGNOREHORIZON                                         0:7AC8
+    IGNOREOBJS                                            0:44B8
+    IIO                                                   0:99C5
+    IN                                                    0:5715
+    INBLOCK                                               0:781A
+    INCREMENT                                             0:6F96
+    INDEX                                                 0:4CAF
+    INIT                                                  0: F26
+    INITEV                                                0:418C
+    INITGRAPHICS                                          0:7DA0
+    INITGRFX                                              0:9390
+    INITJOY                                               0:5D7D
+    INITLOG                                               0:10C0
+    INITMACHINE                                           0:7D7B
+    INITMEM                                               0:3EAF
+    INITPIC                                               0:46E6
+    INITPRI                                               0:52E1
+    INITROWS                                              0:939F
+    INITSCRIPT                                            0:6CBD
+    INITSND                                               0:4D0E
+    INITVIEW                                              0:3641
+    INLINE                                              9BA: F58
+    INPUTROW                                            9BA: 5D5
+    INSERTOBJ                                             0:9946
+    INVERTCHAR                                            0:2BB6
+    INVSELECT                                             0:2EE6
+    IP                                                  9BA: FAC
+    IRSB                                                  0:9988
+    ISDIR                                                 0:43CF
+    ISFLAGSET                                             0:7143
+    ISSB                                                  0:9949
+    ISSET                                                 0:7125
+    ISSTOPPEDOBJ                                          0:6646
+    ISUPDOBJ                                              0:6625
+    ITEMCOL                                             9BA:1D68
+    ITEMROW                                             9BA:1D66
+    ITOA                                                  0:4B1A
+    ITOH                                                  0:4BAB
+    JOYTIMER                                            9BA:1659
+    JPREVDIR                                            9BA:1661
+    JRB2S                                                 0:9485
+    JRDW                                                  0:94ED
+    JRGS                                                  0:9422
+    JRIG                                                  0:93A5
+    JRIRT                                                 0:9525
+    JRSH                                                  0:9437
+    JRTS                                                  0:93C9
+    JX                                                  9BA:165D
+    JY                                                  9BA:165F
+
+Memory Map for AGI.EXE 10/07/87                                        Page 6  
+
+    
+    Name                                                  Addr  
+    KBDHANDLER                                            0:5C76
+    KEYDIR                                              9BA: 12F
+    KEYMAP                                              9BA: 145
+    LADDTOPIC                                             0:2BF9
+    LANIMATEOBJ                                           0: 4B1
+    LASTCEL                                               0:3A82
+    LASTSPACE                                           9BA: D13
+    LCLEARLINES                                           0:7355
+    LCLEARRECT                                            0:7394
+    LCLOSEDIALOGUE                                        0:362E
+    LDISCARDPIC                                           0:48C3
+    LDISCARDVIEW                                          0:3BB0
+    LDRAW                                                 0: 9C2
+    LEADINGZEROS                                          0:4B58
+    LERASE                                                0: A67
+    LESSF                                                 0: 834
+    LESSN                                                 0: 823
+    LGRAFSCRN                                             0:7343
+    LINDIRECTF                                            0:701C
+    LINDIRECTN                                            0:7035
+    LINEPOS                                             9BA: D0F
+    LINEWIDTH                                           9BA: D11
+    LISTINBACK                                            0: 436
+    LISTTOSCREEN                                          0: 460
+    LLOADLOG                                              0:1115
+    LLOADPIC                                              0:472F
+    LLOADSND                                              0:4D5B
+    LLOADVIEW                                             0:3694
+    LMOVEOBJ                                              0:6925
+    LNEWROOM                                              0:1734
+    LNEWROOMF                                             0:174B
+    LOADFILE                                              0:2DF6
+    LOADLOG                                               0:1172
+    LOADPIC                                               0:4754
+    LOADSEG                                             9BA:1749
+    LOADSND                                               0:4D77
+    LOADVIEW                                              0:36DA
+    LOADVIEWF                                             0:36B3
+    LOG                                                   0:7E13
+    LOGFILE                                             9BA:1863
+    LOGFILENAME                                         9BA:1865
+    LOGLIST                                             9BA: 96F
+    LOGSEG                                                0:4107
+    LONGJMP                                               0:7B23
+    LOPENDIALOGUE                                         0:361C
+    LOVERLAYPIC                                           0:4830
+    LOWER                                                 0:4C3C
+    LPICTURE                                              0:47C3
+    LPRINTMSG                                             0:1BDC
+    LRX                                                 9BA: 135
+    LRY                                                 9BA: 137
+    LSEEK                                                 0:59AA
+    LSETCEL                                               0:3938
+    LSETLOOP                                              0:382A
+    LSETVIEW                                              0:375A
+    LSTARTUPDATE                                          0:6731
+    LSTOPSND                                              0:4E76
+    LSTOPUPDATE                                           0:6709
+    LTEXTSCRN                                             0:730B
+    MACHTYPE                                            9BA:10E2
+
+Memory Map for AGI.EXE 10/07/87                                        Page 7  
+
+    
+    Name                                                  Addr  
+    MAIN                                                  0: 128
+    MAKEBACKCOLOR                                         0:74EE
+    MAKEFORECOLOR                                         0:74E2
+    MAKELINE                                              0:1973
+    MAKEOBJLIST                                           0: 330
+    MAKESAVEFILENAME                                      0:57B2
+    MAKESTOPPEDLIST                                       0:667E
+    MAKETEXTATR                                           0:7444
+    MAKEUPDLIST                                           0:6667
+    MARK                                                9BA: A55
+    MATCH                                                 0:1A41
+    MAXDRAWN                                            9BA: 13F
+    MAXLENGTH                                           9BA: D19
+    MAXMEM                                              9BA: A53
+    MAXPTR                                              9BA: A57
+    MAXSCRIPT                                           9BA:17AB
+    MEMBASE                                             9BA: A51
+    MEMLEFT                                               0:1478
+    MEMPTR                                              9BA: A4D
+    MENUBASE                                            9BA:1D6C
+    MENUCOL                                             9BA:1D64
+    MENUDIM                                             9BA:1D74
+    MENUINPUT                                             0:8F35
+    MENUPOS                                             9BA:1D72
+    MENUSUBMITTED                                       9BA:1D6A
+    MIRRORCELL                                            0:54BC
+    MONTYPE                                             9BA:10E4
+    MOVEBYTE                                              0:5740
+    MOVEDIR                                               0:16C5
+    MOVEOBJF                                              0:69A2
+    MOVEOBJS                                              0:14E2
+    MOVESELECT                                            0:30DF
+    MOVETO                                                0:164A
+    MULN                                                  0:705F
+    MULV                                                  0:7072
+    MUSTGET                                               0:2DB1
+    NEWDESCRIPT                                         9BA:1BEA
+    NEWROOM                                               0:176A
+    NEWSELECT                                             0:3147
+    NEWVOL                                                0:2DDB
+    NEXTEVENT                                             0:4212
+    NEXTSCRIPT                                            0:6D8D
+    NEXTTOKEN                                             0:1BBA
+    NOACTION                                              0:4CA3
+    NOFONTMSG                                           9BA: B75
+    NOGAMESMSG                                          9BA:1C1C
+    NOMEMMSG                                            9BA: B17
+    NORMALCYCLE                                           0:67C3
+    NORMALMOTION                                          0:6AE2
+    NOTEST                                                0: 9B0
+    NULLINTERRUPT                                         0:813E
+    NUMBERLOOPS                                           0:3B78
+    NUMFROMSTR                                            0:22EC
+    NUMLINES                                            9BA: D17
+    NUMWORDS                                            9BA: C9B
+    OBJ2SCRN                                              0:53A1
+    OBJDIR                                                0: 652
+    OBJECT                                              9BA: 969
+    OBJECTFILENAME                                      9BA: 961
+    OBJEND                                              9BA: 96B
+
+Memory Map for AGI.EXE 10/07/87                                        Page 8  
+
+    
+    Name                                                  Addr  
+    OBJINBOX                                              0: 8C0
+    OBJINPIC                                              0:540E
+    OBJINRM                                               0: 913
+    OBJLEN                                              9BA: 96D
+    OBJPTR                                                0:724E
+    OBJSTATUS                                             0:6EF6
+    OBJVARPTR                                             0:72A4
+    OBSERVEBLOCKS                                         0:77F5
+    OBSERVEHORIZON                                        0:7AED
+    OBSERVEOBJS                                           0:44E0
+    OLDKBD                                              9BA:1881
+    OLDVIDEO                                            9BA:1885
+    ONANYTHING                                            0:7A8B
+    ONLAND                                                0:7A66
+    ONSTATUS                                            9BA:1657
+    ONWATER                                               0:7A41
+    OPEN                                                  0:590D
+    OPENDIALOGUE                                          0:97E2
+    OPENLOGFILE                                           0:7EC3
+    OPENSCRIPT                                            0:6D70
+    OPENWNDW                                              0:51E1
+    OUT                                                   0:572A
+    OVERLAYPIC                                            0:4854
+    OVLOAD                                                0:6404
+    PARSE                                                 0:1882
+    PARSELINE                                           9BA: C9F
+    PARSESTRING                                           0:192E
+    PATRNMASKS                                          9BA:1DE8
+    PAUSE                                                 0: 22F
+    PAUSEMSG                                            9BA: C05
+    PCB2S                                                 0:9545
+    PCDW                                                  0:95A5
+    PCGS                                                  0:94FB
+    PCIG                                                  0:946B
+    PCIRT                                                 0:9613
+    PCJOYMSG                                            9BA:15E5
+    PCSH                                                  0:9510
+    PCTS                                                  0:94A9
+    PCXC                                                  0:93A5
+    PCXO                                                  0:93C7
+    PICBOTTOM                                           9BA: 5DF
+    PICLIST                                             9BA:12AC
+    PICNO                                               9BA: 13B
+    PICOBJ                                              9BA: E84
+    PICPTR                                              9BA:1413
+    PICRELOC                                            9BA:1415
+    PICSEG                                                0:4149
+    PICTOP                                              9BA: 5DD
+    PICTURE                                               0:47E8
+    PICVISIBLE                                          9BA:12B4
+    PL                                                  9BA: CC9
+    PLAYERCONTROL                                         0:6C82
+    PLAYIT                                                0:7C2C
+    PLAYNOTE                                              0:7CEA
+    PLAYSND                                             9BA:12F4
+    PLOTPOINT                                             0:4F4A
+    POANIENTRY                                          9BA: E8A
+    POINT                                                 0:6140
+    POLLBUTTONS                                           0:5E9A
+    POLLDEVICES                                           0:41B3
+
+Memory Map for AGI.EXE 10/07/87                                        Page 9  
+
+    
+    Name                                                  Addr  
+    POLLJOY                                               0:5E33
+    POLLKBD                                               0:4398
+    POPSCRIPT                                             0:6DDE
+    POSITION                                              0:784E
+    POSN                                                  0: 89E
+    POSTEVENT                                             0:41C2
+    PREPARESTRING                                         0: ED0
+    PREVENTINPUT                                          0:3552
+    PREVIOUSSCORE                                       9BA: 613
+    PREVLINE                                            9BA: F82
+    PREVLOG                                             9BA: 97B
+    PREVPIC                                             9BA:12B2
+    PREVSND                                             9BA:1304
+    PREVVIEW                                            9BA: FB4
+    PRI2COORD                                             0:49D4
+    PRINT                                                 0:1F2A
+    PRINTAT                                               0:1C6C
+    PRINTF                                                0:2366
+
+    PRINTMSGAT                                            0:1C2A
+    PRIORITY                                            9BA:1408
+    PRI_TBL                                             9BA:1316
+    PROGRAMCONTROL                                        0:6C70
+    PSPSEG                                              9BA:174D
+    PUNCTUATION                                         9BA: 943
+    PUSHSCRIPT                                            0:6DCC
+    PUT                                                   0:71CD
+    PUTAWAY                                               0:912D
+    PUTCHAR                                               0:29A2
+    PUTF                                                  0:71F8
+    QUIT                                                  0: 286
+    QUITGAME                                              0: 257
+    QUITMSG                                             9BA: 5E3
+    RANDMDIR                                              0:3C86
+    RANDOM                                                0:6E01
+    RANDSEED                                            9BA:17AD
+    READ                                                  0:592E
+    READBUTTONS                                           0:6066
+    READJOY                                               0:5FFF
+    READSAVE                                              0:265D
+    RELEASELOOP                                           0:46BC
+    RELEASEPRIORITY                                       0:76E4
+    REPOSITION                                            0:791B
+    REPOSITIONTO                                          0:79AB
+    RESCANJMPBUF                                        9BA: 617
+    RESET                                                 0:7111
+    RESETALL                                              0: F7D
+    RESETEV                                               0:419B
+    RESETFLAG                                             0:70CC
+    RESETINTERRUPTS                                       0:8023
+    RESETIT                                               0:7135
+    RESETLISTS                                            0:10A8
+    RESETLOG                                              0:10CF
+    RESETMACHINE                                          0:7DF9
+    RESETPIC                                              0:46F5
+    RESETSCANSTART                                        0:1322
+    RESETSND                                              0:4D1D
+    RESETVIEW                                             0:3650
+    RESTART                                               0:2448
+    RESTBACK                                              0:9943
+    RESTMSG                                             9BA:1A20
+
+Memory Map for AGI.EXE 10/07/87                                        Page 10 
+
+    
+    Name                                                  Addr  
+    RESTORE                                               0:645D
+    RESTOREALL                                            0:6695
+    RESTORECURPOS                                         0:2ADF
+    RESTOREGAME                                           0:24E8
+    RESTOREOBJLIST                                        0: 2DF
+    RESTORESCANOFS                                        0:137D
+    RESTORETEXTATR                                        0:7604
+    RETURNIFNOMEM                                       9BA: ECC
+    REVERSE                                               0:4C01
+    REVERSECYCLE                                          0:682C
+    REVERSELOOP                                           0:6858
+    RIGHTPOSN                                             0: 8B3
+    RINDIRECT                                             0:7046
+    ROOMTOTRACE                                         9BA:1D4C
+    ROW_TABLE                                           9BA:1417
+    RSTRTMSG                                            9BA: AD3
+    SAID                                                  0: 934
+    SAIDTEST                                            9BA:1D4E
+    SAVEBACK                                              0:9940
+    SAVECURPOS                                            0:2AB8
+    SAVEDATR                                            9BA:17F5
+    SAVEDCURPOS                                         9BA: E6A
+    SAVEDESCRIPT                                        9BA:1CAC
+    SAVEDINDEX                                          9BA:1813
+    SAVEDRIVE                                           9BA:13FF
+    SAVEDSCRIPT                                         9BA: 5E1
+    SAVEEND                                             9BA: 5E3
+    SAVEFILE                                            9BA:1CCC
+    SAVEGAME                                              0:26FF
+    SAVEMODE                                            9BA:1847
+    SAVEMSG                                             9BA:19C2
+    SAVEPATH                                            9BA:19A2
+    SAVESTART                                           9BA:   2
+    SAVETEXTATR                                           0:75CA
+    SAVEVOL                                             9BA: BB7
+    SCANLOG                                               0:28E8
+
+    SCANOFS                                             9BA: 97D
+    SCREENMODE                                          9BA:17F3
+    SCRIPT                                              9BA:17A3
+    SCRIPTENTRIES                                       9BA: 143
+    SCRIPTOFF                                             0:6C9F
+    SCRIPTON                                              0:6CAE
+    SCRIPTPTR                                           9BA:17A7
+    SCRIPTSIZE                                          9BA: 141
+    SCRIPTTOP                                           9BA:17A5
+    SCROLL                                                0:2B86
+    SCROLLTRACE                                           0:8BF8
+    SEGERR                                              9BA: ECA
+    SEGLEN                                              9BA: ECE
+    SELECT                                                0:9154
+    SELECTRESTORE                                       9BA:1B6C
+    SELECTSAVE                                          9BA:1AE8
+    SEPSTR                                              9BA: C5F
+    SET                                                   0:7107
+    SETBASE                                               0:144E
+    SETCEL                                                0:39AE
+    SETCELF                                               0:396F
+    SETCONTROL                                            0:4956
+    SETCUR                                                0:2A9D
+    SETCURSORCHAR                                         0:3597
+
+Memory Map for AGI.EXE 10/07/87                                        Page 11 
+
+    
+    Name                                                  Addr  
+    SETCYCLEFREQ                                          0:6895
+    SETDISP                                               0:5179
+    SETFLAG                                               0:70C5
+    SETGAMEID                                             0: E56
+    SETHORIZON                                            0:7AB0
+    SETHORZ                                               0:9399
+    SETINTERRUPTS                                         0:7F31
+    SETIT                                                 0:712F
+    SETJMP                                                0:7B14
+    SETLOOP                                               0:389A
+    SETLOOPF                                              0:385E
+    SETMARK                                               0:1423
+    SETMEMPTR                                             0:1414
+    SETMENU                                               0:8CA1
+    SETMENUITEM                                           0:8D53
+    SETMODE                                               0:569D
+    SETOBJDIR                                             0:6BFF
+    SETPRIORITY                                           0:76B4
+    SETSCANSTART                                          0:130D
+    SETSCRIPTSIZE                                         0:6DAB
+    SETSIMPLE                                             0:26D2
+    SETSTEPSIZE                                           0:6B7F
+    SETSTEPTIME                                           0:6BBD
+    SETSTRING                                             0: D0F
+    SETTEXTATR                                            0:73F0
+    SETUPPERLEFT                                          0:492E
+    SETUPSCANOFS                                          0:133C
+    SETVIEW                                               0:37CA
+    SETVIEWF                                              0:378E
+    SHAKESCREEN                                           0:7641
+    SHOWMEM                                               0:1495
+    SHOWMENU                                              0:90DB
+    SHOWOBJ                                               0:5AFE
+    SHOWPIC                                               0:489B
+    SHOWPRI                                             9BA:17F1
+    SHOWPRISCREEN                                         0:6F5C
+    SHOWSTATUS                                          9BA: 5D9
+    SIMPLENAME                                          9BA: E48
+    SKIPIF                                                0:2976
+    SKIPOR                                                0:2950
+    SNDENDFLAG                                          9BA:1306
+    SNDLIST                                             9BA:12F6
+    SNDSEG                                                0:416A
+    SOUND                                                 0:4E24
+    SOUNDOFF                                              0:7CB9
+    SPRINTF                                               0:234A
+    STACKBASE                                           9BA:   0
+    START                                                 0:  78
+    STARTC                                              9BA:15A7
+    STARTCYCLING                                          0:68FD
+    STARTMOTION                                           0:6B46
+    STARTSOUND                                            0:7BCA
+    STARTUPDATE                                           0:67A3
+    STARTWANDER                                           0:6AA9
+    START_COORDS                                        9BA:15A7
+    STATUS                                                0:2EBB
+    STATUSLINEOFF                                         0:323F
+    STATUSLINEON                                          0:322A
+    STATUSROW                                           9BA: 5DB
+    STATUSSCREEN                                          0:3029
+
+Memory Map for AGI.EXE 10/07/87                                        Page 12 
+
+    
+    Name                                                  Addr  
+    STOLOWER                                              0:4CE0
+    STOPCYCLING                                           0:68D8
+    STOPMOTION                                            0:6B09
+    STOPPEDLIST                                         9BA:179F
+    STOPSND                                               0:4E85
+    STOPUPDATE                                            0:6785
+    STRCAT                                                0:4A79
+    STRCMP                                                0:4AB5
+    STRCPY                                                0:4A06
+    STRLEN                                                0:49EB
+    STRNCPY                                               0:4A3A
+    SUBF                                                  0:7009
+    SUBMITMENU                                            0:8E3E
+    SUBN                                                  0:6FFC
+    SWAPDISKMSG                                         9BA:1A86
+    SYSTIMER                                            9BA: 129
+    S_RAM                                               9BA:140B
+    TANDYDIR                                            9BA:1773
+    TESTFLAG                                              0: 873
+    TESTTBL                                             9BA: 8F5
+    TEXTATR                                             9BA: 5D1
+    TEXTSCRN                                              0:9393
+    TEXTWIN                                             9BA: D1F
+    THRZ_POS                                            9BA:1402
+    TIMERDISPATCH                                         0:80D0
+    TIMERINT                                              0:7B30
+    TIMERINTHANDLER                                       0:80A5
+    TOGGLE                                                0:711B
+    TOGGLEFLAG                                            0:70D3
+    TOGGLEIT                                              0:713D
+    TOGGLEMONITOR                                         0:758D
+    TRACEACTION                                           0:8927
+    TRACEDIVIDER                                        9BA:1D60
+    TRACEINFO                                             0:88C1
+    TRACEIT                                               0:898F
+    TRACELOGS                                           9BA:1D52
+    TRACEOFF                                              0:88FD
+    TRACEON                                               0:8815
+    TRACEPARMS                                            0:8AAD
+    TRACESTATUS                                         9BA:1D50
+    TRACETEST                                             0:894D
+    TRANSLATE                                             0:427F
+    TRWINDOWPOS                                         9BA:1D48
+    TRWINDOWSIZE                                        9BA:1D4A
+    TRYAGAIN                                            9BA:10A6
+    TWBOTTOMROW                                         9BA:1D58
+    TWDIM                                               9BA:1D5E
+    TWLEFTCOL                                           9BA:1D56
+    TWODRIVE                                            9BA:10DC
+    TWPOS                                               9BA:1D5C
+    TWRIGHTCOL                                          9BA:1D5A
+    TWTOPROW                                            9BA:1D54
+    ULX                                                 9BA: 131
+    ULY                                                 9BA: 133
+    UNANIMATEALL                                          0: 515
+    UNBLOCK                                               0:77BE
+    UNLINK                                                0:5974
+    UPDATELINESTATS                                       0:2324
+    UPDATELIST                                          9BA:179B
+    USERCTRL                                            9BA: 139
+
+Memory Map for AGI.EXE 10/07/87                                        Page 13 
+
+    
+    Name                                                  Addr  
+    USERIN                                                0:325F
+    USERSTR                                             9BA: 20D
+    VALIDDRIVE                                            0:5A7D
+    VALIDPATH                                             0:581C
+    VAR                                                 9BA:   9
+    VDISCARDVIEW                                          0:3BCC
+    VERIFYGAMEID                                          0:5788
+    VERSION                                               0:6F7D
+    VERSIONMSG                                          9BA: AA3
+    VGB2S                                                 0:9416
+    VGDW                                                  0:9469
+    VGGS                                                  0:9400
+    VGIG                                                  0:93A5
+    VGIRT                                                 0:9494
+    VGSH                                                  0:94A6
+    VGTS                                                  0:93C7
+    VIEWLIST                                            9BA: FAE
+    VIEWSEG                                               0:4128
+    VOLMSG                                              9BA: B8F
+    VREPOSITIONTO                                         0:79EE
+    VRESETFLAG                                            0:70E9
+    VSETFLAG                                              0:70DA
+    VSHOWOBJ                                              0:5ADA
+    VTESTFLAG                                             0: 878
+    VTOGGLEFLAG                                           0:70F8
+    V_RAM                                               9BA:140D
+    WAITACAB                                              0:4331
+    WAITCHAR                                              0:42F0
+    WAITEVENT                                             0:4242
+    WAITTOANIMATE                                         0:7BAC
+    WANDER                                                0:3C3D
+    WHICHMACHINE                                          0:3DC8
+    WINBOT                                              9BA: D09
+    WINCOL                                              9BA: E68
+    WINDOWDIM                                           9BA: D1D
+    WINDOWNOWAIT                                          0:1D6C
+    WINDOWPOS                                           9BA: D1B
+    WINDOWPRINT                                           0:1CBE
+    WINDOWUP                                            9BA: D15
+    WINULCOL                                            9BA: D05
+    WINULROW                                            9BA: D03
+    WINWIDTH                                            9BA: D01
+    WORDFILENAME                                        9BA: 95F
+    WORDPTR                                             9BA: C87
+    WORDS                                               9BA: C73
+    WORDTBL                                             9BA: C9D
+    WORDTOSTRING                                          0: D48
+    WRITE                                                 0:5951
+    WRITECUR                                              0:34DA
+    WRITEPOINTER                                          0:87D2
+    WRITESAVE                                             0:2872
+    WRONGMSG                                            9BA: BEB
+    WRONGVOL                                              0:2DE4
+    XLATCOLOR                                             0:52C4
+    XLATOBJC                                              0:555E
+    XTB2S                                                 0:9415
+    XTDW                                                  0:949C
+    XTGS                                                  0:93FF
+    XTIG                                                  0:93A5
+    XTIRT                                                 0:9519
+
+Memory Map for AGI.EXE 10/07/87                                        Page 14 
+
+    
+    Name                                                  Addr  
+    XTSH                                                  0:9414
+    XTSS                                                  0:954E
+    XTTS                                                  0:93C5
+    _CALLLOGIC                                            0:1286
+    _DRAWBRUSH                                            0:616B
+    _LLOADLOG                                             0:1155
+    _PRINT                                                0:1F69
+    _SETCEL                                               0:3A4D
+    _SETLOOP                                              0:38FE
+    _SETTEXTATR                                           0:7416
+    _SHOWOBJ                                              0:5B1A
+    _TRACEON                                              0:8832
+
+Segments:
+
+    Section ROOT:  Maddr=0, Msize=9390, Daddr=200, Lev=0, Ovly#=0
+        
+        Name                                                Addr   Size
+        BASE.CODE                                              0     78
+        CODE.CODE                                             78   920B
+        $OVTB$.                                             9290     F3
+
+    Section GRAPHICS:  Maddr=9390, Msize=2B0, Daddr=0, Lev=1, Ovly#=1
+        CODE.CODE                                           9390     15
+        CODE.CODE                                           93A5    297
+
+    Section GRAPHICS:  Maddr=9390, Msize=1E0, Daddr=0, Lev=1, Ovly#=2
+        CODE.CODE                                           9390     15
+        CODE.CODE                                           93A5    1BC
+
+    Section GRAPHICS:  Maddr=9390, Msize=260, Daddr=0, Lev=1, Ovly#=3
+        CODE.CODE                                           9390     15
+        CODE.CODE                                           93A5    240
+
+    Section GRAPHICS:  Maddr=9390, Msize=5B0, Daddr=0, Lev=1, Ovly#=4
+        CODE.CODE                                           9390     15
+        CODE.CODE                                           93A5    43D
+        CODE.CODE                                           97E2    154
+
+    Section GRAPHICS:  Maddr=9390, Msize=120, Daddr=0, Lev=1, Ovly#=5
+        CODE.CODE                                           9390     15
+        CODE.CODE                                           93A5    102
+
+    Section OBJECTS:  Maddr=9940, Msize=160, Daddr=0, Lev=1, Ovly#=6
+        CODE.CODE                                           9940      9
+        CODE.CODE                                           9949    14C
+
+    Section OBJECTS:  Maddr=9940, Msize=260, Daddr=0, Lev=1, Ovly#=7
+        CODE.CODE                                           9940      9
+        CODE.CODE                                           9949    24E
+
+    Section DATA:  Maddr=9BA0, Msize=1F10, Daddr=0, Lev=0, Ovly#=8, Pre-Loaded
+        DATA.DATA                                           9BA0   1E82
+        STACK.STACK                                         BA30     80
+        CONST.CONST                                         BAB0      0
+        MEMORY.MEMORY                                       BAB0      0
+
+
+
+Memory Map for AGI.EXE 10/07/87                                        Page 15 
+
+Common Blocks:
+
+        $OVTB$., Addr = 9290, Size = F3
+        MEMORY.MEMORY, Addr = BAB0, Size = 0
+        STACK.STACK, Addr = BA30, Size = 80
+
+Modules:
+
+    Module A from file START
+        Segment BASE.CODE, Addr = 0, Size = 78
+        Segment CODE.CODE, Addr = 78, Size = B0
+            $STRT$                                                0:  78
+            EXIT                                                  0:  AE
+            GETARGS                                               0:  C4
+            START                                                 0:  78
+        Segment DATA.DATA, Addr = 9BA0, Size = 2
+            STACKBASE                                           9BA:   0
+
+    Module A from file SAVEVARS
+        Segment DATA.DATA, Addr = 9BA2, Size = 5E1
+            BACKCOLOR                                           9BA: 5CF
+            BLOCKING                                            9BA: 13D
+            CURCHAR                                             9BA: 5D7
+            FLAG                                                9BA: 109
+            FORECOLOR                                           9BA: 5CD
+            GAMEID                                              9BA:   2
+            GETINPUT                                            9BA: 5D3
+            HORIZON                                             9BA: 12D
+            INPUTROW                                            9BA: 5D5
+            KEYDIR                                              9BA: 12F
+            KEYMAP                                              9BA: 145
+            LRX                                                 9BA: 135
+            LRY                                                 9BA: 137
+            MAXDRAWN                                            9BA: 13F
+            PICBOTTOM                                           9BA: 5DF
+            PICNO                                               9BA: 13B
+            PICTOP                                              9BA: 5DD
+            SAVEDSCRIPT                                         9BA: 5E1
+            SAVEEND                                             9BA: 5E3
+            SAVESTART                                           9BA:   2
+            SCRIPTENTRIES                                       9BA: 143
+            SCRIPTSIZE                                          9BA: 141
+            SHOWSTATUS                                          9BA: 5D9
+            STATUSROW                                           9BA: 5DB
+            SYSTIMER                                            9BA: 129
+            TEXTATR                                             9BA: 5D1
+            ULX                                                 9BA: 131
+            ULY                                                 9BA: 133
+            USERCTRL                                            9BA: 139
+            USERSTR                                             9BA: 20D
+            VAR                                                 9BA:   9
+
+    Module MAIN from file MAIN
+        Segment CODE.CODE, Addr = 128, Size = 174
+            MAIN                                                  0: 128
+            PAUSE                                                 0: 22F
+            QUIT                                                  0: 286
+            QUITGAME                                              0: 257
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = A183, Size = 3A
+            GAMEPAUSED                                          9BA: 615
+            PREVIOUSSCORE                                       9BA: 613
+
+Memory Map for AGI.EXE 10/07/87                                        Page 16 
+
+            QUITMSG                                             9BA: 5E3
+            RESCANJMPBUF                                        9BA: 617
+
+    Module A from file ACTION
+        Segment CODE.CODE, Addr = 29C, Size = 43
+            ACTION                                                0: 29C
+        Segment DATA.DATA, Addr = A1BD, Size = 2B8
+            ACTIONTBL                                           9BA: 61D
+
+    Module OBJLIST from file OBJLIST
+        Segment CODE.CODE, Addr = 2DF, Size = 1D2
+            ADDOBJTOLIST                                          0: 407
+            FREEOBJLIST                                           0: 305
+            LISTINBACK                                            0: 436
+            LISTTOSCREEN                                          0: 460
+            MAKEOBJLIST                                           0: 330
+            RESTOREOBJLIST                                        0: 2DF
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = A475, Size = 0
+
+    Module ANIMATE from file ANIMATE
+        Segment CODE.CODE, Addr = 4B1, Size = 2D2
+            ANIMATE                                               0: 53B
+            ANIMATEOBJ                                            0: 4CD
+            CHKBLOCK                                              0: 6B1
+            GETOBJDIRS                                            0: 61C
+            LANIMATEOBJ                                           0: 4B1
+            OBJDIR                                                0: 652
+            UNANIMATEALL                                          0: 515
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = A475, Size = 14
+
+    Module ENCRYPT from file ENCRYPT
+        Segment CODE.CODE, Addr = 783, Size = 38
+            ENCRYPT                                               0: 783
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = A489, Size = C
+            CRYPTKEY                                            9BA: 8E9
+
+    Module A from file DOTEST
+        Segment CODE.CODE, Addr = 7BB, Size = 207
+            CENTERPOSN                                            0: 8A4
+            CMPSTRINGS                                            0: 9B3
+            CONTROLLERSET                                         0: 909
+            DOTEST                                                0: 7BB
+            EQUALF                                                0: 80C
+            EQUALN                                                0: 7FB
+            GREATERF                                              0: 85C
+            GREATERN                                              0: 84B
+            HAS                                                   0: 885
+            HAVEKEY                                               0: 996
+            LESSF                                                 0: 834
+            LESSN                                                 0: 823
+            NOTEST                                                0: 9B0
+            OBJINBOX                                              0: 8C0
+            OBJINRM                                               0: 913
+            POSN                                                  0: 89E
+            RIGHTPOSN                                             0: 8B3
+            SAID                                                  0: 934
+            TESTFLAG                                              0: 873
+            VTESTFLAG                                             0: 878
+        Segment DATA.DATA, Addr = A495, Size = 4E
+
+Memory Map for AGI.EXE 10/07/87                                        Page 17 
+
+            TESTTBL                                             9BA: 8F5
+
+    Module DRAW from file DRAW
+        Segment CODE.CODE, Addr = 9C2, Size = 14C
+            DRAWOBJ                                               0: 9DE
+            ERASE                                                 0: A83
+            LDRAW                                                 0: 9C2
+            LERASE                                                0: A67
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = A4E3, Size = 0
+
+    Module FOLLOW from file FOLLOW
+        Segment CODE.CODE, Addr = B0E, Size = 10E
+            FOLLOW                                                0: B0E
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = A4E3, Size = 0
+
+    Module STRING from file STRING
+        Segment CODE.CODE, Addr = C1C, Size = 30A
+            COMPARESTRINGS                                        0: E84
+            GETLINE                                               0: D81
+            GETSTRING                                             0: C1C
+            PREPARESTRING                                         0: ED0
+            SETGAMEID                                             0: E56
+            SETSTRING                                             0: D0F
+            WORDTOSTRING                                          0: D48
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = A4E3, Size = A
+            PUNCTUATION                                         9BA: 943
+
+    Module INIT from file INIT
+        Segment CODE.CODE, Addr = F26, Size = 19A
+            INIT                                                  0: F26
+            RESETALL                                              0: F7D
+            RESETLISTS                                            0:10A8
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = A4ED, Size = 22
+            ANIEND                                              9BA: 965
+            ANILEN                                              9BA: 967
+            ANIOBJ                                              9BA: 963
+            OBJECT                                              9BA: 969
+            OBJECTFILENAME                                      9BA: 961
+            OBJEND                                              9BA: 96B
+            OBJLEN                                              9BA: 96D
+            WORDFILENAME                                        9BA: 95F
+
+    Module LOGIC from file LOGIC
+        Segment CODE.CODE, Addr = 10C0, Size = 2EE
+            CALLLOGIC                                             0:1232
+            CALLLOGICF                                            0:1258
+            FINDLOG                                               0:10E7
+            FLOADLOG                                              0:1131
+            INITLOG                                               0:10C0
+            LLOADLOG                                              0:1115
+            LOADLOG                                               0:1172
+            RESETLOG                                              0:10CF
+            RESETSCANSTART                                        0:1322
+            RESTORESCANOFS                                        0:137D
+            SETSCANSTART                                          0:130D
+            SETUPSCANOFS                                          0:133C
+            _CALLLOGIC                                            0:1286
+            _LLOADLOG                                             0:1155
+
+Memory Map for AGI.EXE 10/07/87                                        Page 18 
+
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = A50F, Size = 86
+            CURLOG                                              9BA: 979
+            LOGLIST                                             9BA: 96F
+            PREVLOG                                             9BA: 97B
+            SCANOFS                                             9BA: 97D
+
+    Module MEMMGR from file MEMMGR
+        Segment CODE.CODE, Addr = 13AE, Size = 134
+            FREEALL                                               0:145D
+            FREEMARK                                              0:1432
+            GETMEM                                                0:13AE
+            GETMEMPTR                                             0:1408
+            MEMLEFT                                               0:1478
+            SETBASE                                               0:144E
+            SETMARK                                               0:1423
+            SETMEMPTR                                             0:1414
+            SHOWMEM                                               0:1495
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = A595, Size = 64
+            HEAPBASE                                            9BA: A4F
+            MARK                                                9BA: A55
+            MAXMEM                                              9BA: A53
+            MAXPTR                                              9BA: A57
+            MEMBASE                                             9BA: A51
+            MEMPTR                                              9BA: A4D
+
+    Module MOVEOBJS from file MOVEOBJS
+        Segment CODE.CODE, Addr = 14E2, Size = 168
+            MOVEOBJS                                              0:14E2
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = A5F9, Size = 24
+
+    Module MOVETO from file MOVETO
+        Segment CODE.CODE, Addr = 164A, Size = EA
+            DIRINDEX                                              0:1705
+            ENDMOVEOBJ                                            0:1691
+            MOVEDIR                                               0:16C5
+            MOVETO                                                0:164A
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = A61D, Size = 12
+
+    Module MSGSTR from file MSGSTR
+        Segment CODE.CODE, Addr = 1734, Size = 0
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = A62F, Size = 1D0
+            CONTCANCELMSG                                       9BA: C31
+            ESCQUITMSG                                          9BA: A8F
+            NOFONTMSG                                           9BA: B75
+            NOMEMMSG                                            9BA: B17
+            PAUSEMSG                                            9BA: C05
+            RSTRTMSG                                            9BA: AD3
+            SAVEVOL                                             9BA: BB7
+            VERSIONMSG                                          9BA: AA3
+            VOLMSG                                              9BA: B8F
+            WRONGMSG                                            9BA: BEB
+
+    Module NEWROOM from file NEWROOM
+        Segment CODE.CODE, Addr = 1734, Size = 14E
+            LNEWROOM                                              0:1734
+            LNEWROOMF                                             0:174B
+            NEWROOM                                               0:176A
+
+Memory Map for AGI.EXE 10/07/87                                        Page 19 
+
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = A7FF, Size = 0
+
+    Module PARSE from file PARSE
+        Segment CODE.CODE, Addr = 1882, Size = 35A
+            BADWORD                                               0:1B9D
+            MAKELINE                                              0:1973
+            MATCH                                                 0:1A41
+            NEXTTOKEN                                             0:1BBA
+            PARSE                                                 0:1882
+            PARSESTRING                                           0:192E
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = A7FF, Size = 6C
+            DELSTR                                              9BA: C6D
+            NUMWORDS                                            9BA: C9B
+            PARSELINE                                           9BA: C9F
+            PL                                                  9BA: CC9
+            SEPSTR                                              9BA: C5F
+            WORDPTR                                             9BA: C87
+            WORDS                                               9BA: C73
+            WORDTBL                                             9BA: C9D
+
+    Module PRINT from file PRINT
+        Segment CODE.CODE, Addr = 1BDC, Size = 76E
+            CLOSEWINDOW                                           0:1F01
+            DISPLAY                                               0:2226
+            DISPLAYF                                              0:227D
+            FPRINTMSG                                             0:1BFF
+            FPRINTMSGAT                                           0:1C47
+            GETMSGPTR                                             0:21C6
+            LPRINTMSG                                             0:1BDC
+            NUMFROMSTR                                            0:22EC
+            PRINT                                                 0:1F2A
+            PRINTAT                                               0:1C6C
+            PRINTMSGAT                                            0:1C2A
+            UPDATELINESTATS                                       0:2324
+            WINDOWNOWAIT                                          0:1D6C
+            WINDOWPRINT                                           0:1CBE
+            _PRINT                                                0:1F69
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = A86B, Size = 5C
+            CHARHEIGHT                                          9BA: D0B
+            DIALOGUEOPEN                                        9BA: D07
+            ESCAPECHAR                                          9BA: D0D
+            LASTSPACE                                           9BA: D13
+            LINEPOS                                             9BA: D0F
+            LINEWIDTH                                           9BA: D11
+            MAXLENGTH                                           9BA: D19
+            NUMLINES                                            9BA: D17
+            TEXTWIN                                             9BA: D1F
+            WINBOT                                              9BA: D09
+            WINDOWDIM                                           9BA: D1D
+            WINDOWPOS                                           9BA: D1B
+            WINDOWUP                                            9BA: D15
+            WINULCOL                                            9BA: D05
+            WINULROW                                            9BA: D03
+            WINWIDTH                                            9BA: D01
+
+    Module A from file PRINTF
+        Segment CODE.CODE, Addr = 234A, Size = FE
+            PRINTF                                                0:2366
+            SPRINTF                                               0:234A
+
+Memory Map for AGI.EXE 10/07/87                                        Page 20 
+
+        Segment DATA.DATA, Addr = A8C7, Size = 5
+
+    Module RESTART from file RESTART
+        Segment CODE.CODE, Addr = 2448, Size = A0
+            RESTART                                               0:2448
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = A8CC, Size = 0
+
+    Module RESTGAME from file RESTGAME
+        Segment CODE.CODE, Addr = 24E8, Size = 1EA
+            READSAVE                                              0:265D
+            RESTOREGAME                                           0:24E8
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = A8CC, Size = 82
+
+    Module SAVEGAME from file SAVEGAME
+        Segment CODE.CODE, Addr = 26D2, Size = 216
+            SAVEGAME                                              0:26FF
+            SETSIMPLE                                             0:26D2
+            WRITESAVE                                             0:2872
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = A94E, Size = BA
+            SIMPLENAME                                          9BA: E48
+
+    Module A from file SCANLOG
+        Segment CODE.CODE, Addr = 28E8, Size = BA
+            CONDTEST                                              0:2918
+            SCANLOG                                               0:28E8
+            SKIPIF                                                0:2976
+            SKIPOR                                                0:2950
+        Segment DATA.DATA, Addr = AA08, Size = 0
+
+    Module A from file SCROUT
+        Segment CODE.CODE, Addr = 29A2, Size = 257
+            CLEARLINE                                             0:2B36
+            CLEARRECT                                             0:2B54
+            CLRLINES                                              0:2B08
+            HALFTONECHAR                                          0:2BC5
+            INVERTCHAR                                            0:2BB6
+            PUTCHAR                                               0:29A2
+            RESTORECURPOS                                         0:2ADF
+            SAVECURPOS                                            0:2AB8
+            SCROLL                                                0:2B86
+            SETCUR                                                0:2A9D
+        Segment DATA.DATA, Addr = AA08, Size = 1C
+            EXTRACHAR                                           9BA: E7C
+            HALFTONE                                            9BA: E7A
+            SAVEDCURPOS                                         9BA: E6A
+            WINCOL                                              9BA: E68
+
+    Module PICOBJ from file PICOBJ
+        Segment CODE.CODE, Addr = 2BF9, Size = 1B8
+            ADDTOPIC                                              0:2CD1
+            ADDTOPICF                                             0:2C49
+            LADDTOPIC                                             0:2BF9
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = AA24, Size = 32
+            PICOBJ                                              9BA: E84
+            POANIENTRY                                          9BA: E8A
+
+    Module SEGMENT from file SEGMENT
+        Segment CODE.CODE, Addr = 2DB1, Size = 10A
+
+Memory Map for AGI.EXE 10/07/87                                        Page 21 
+
+            CLOSEALLVOLS                                          0:2DED
+            GETSEG                                                0:2DC6
+            LOADFILE                                              0:2DF6
+            MUSTGET                                               0:2DB1
+            NEWVOL                                                0:2DDB
+            WRONGVOL                                              0:2DE4
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = AA56, Size = 1C
+            CURRENTDISK                                         9BA: ED0
+            RETURNIFNOMEM                                       9BA: ECC
+            SEGERR                                              9BA: ECA
+            SEGLEN                                              9BA: ECE
+
+    Module STATUS from file STATUS
+        Segment CODE.CODE, Addr = 2EBB, Size = 3A4
+            DISPLAYSTATUSLINE                                     0:31A0
+            INVSELECT                                             0:2EE6
+            MOVESELECT                                            0:30DF
+            NEWSELECT                                             0:3147
+            STATUS                                                0:2EBB
+            STATUSLINEOFF                                         0:323F
+            STATUSLINEON                                          0:322A
+            STATUSSCREEN                                          0:3029
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = AA72, Size = 84
+
+    Module USERIN from file USERIN
+        Segment CODE.CODE, Addr = 325F, Size = 3E2
+            ACCEPTINPUT                                           0:357B
+            CANCELLINE                                            0:3409
+            CURSORSTATE                                           0:3546
+            DISPLAYINPUT                                          0:35BA
+            ECHO                                                  0:3488
+            ECHOLINE                                              0:3436
+            EDITLINE                                              0:3335
+            ERASECUR                                              0:3511
+            LCLOSEDIALOGUE                                        0:362E
+            LOPENDIALOGUE                                         0:361C
+            PREVENTINPUT                                          0:3552
+            SETCURSORCHAR                                         0:3597
+            USERIN                                                0:325F
+            WRITECUR                                              0:34DA
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = AAF6, Size = 58
+            INLINE                                              9BA: F58
+            IP                                                  9BA: FAC
+            PREVLINE                                            9BA: F82
+
+    Module VIEW from file VIEW
+        Segment CODE.CODE, Addr = 3641, Size = 5FC
+            CURRENTCEL                                            0:3AD0
+            CURRENTLOOP                                           0:3B08
+            CURRENTVIEW                                           0:3B40
+            DISCARDVIEW                                           0:3BF0
+            FINDVIEW                                              0:365C
+            INITVIEW                                              0:3641
+            LASTCEL                                               0:3A82
+            LDISCARDVIEW                                          0:3BB0
+            LLOADVIEW                                             0:3694
+            LOADVIEW                                              0:36DA
+            LOADVIEWF                                             0:36B3
+            LSETCEL                                               0:3938
+
+Memory Map for AGI.EXE 10/07/87                                        Page 22 
+
+            LSETLOOP                                              0:382A
+            LSETVIEW                                              0:375A
+            NUMBERLOOPS                                           0:3B78
+            RESETVIEW                                             0:3650
+            SETCEL                                                0:39AE
+            SETCELF                                               0:396F
+            SETLOOP                                               0:389A
+            SETLOOPF                                              0:385E
+            SETVIEW                                               0:37CA
+            SETVIEWF                                              0:378E
+            VDISCARDVIEW                                          0:3BCC
+            _SETCEL                                               0:3A4D
+            _SETLOOP                                              0:38FE
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = AB4E, Size = 8
+            PREVVIEW                                            9BA: FB4
+            VIEWLIST                                            9BA: FAE
+
+    Module WANDER from file WANDER
+        Segment CODE.CODE, Addr = 3C3D, Size = 62
+            RANDMDIR                                              0:3C86
+            WANDER                                                0:3C3D
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = AB56, Size = 0
+
+    Module A from file BEEP
+        Segment CODE.CODE, Addr = 3C9F, Size = 2C
+            BEEP                                                  0:3C9F
+            ERRBEEP                                               0:3CA8
+
+    Module ERROR from file ERROR
+        Segment CODE.CODE, Addr = 3CCB, Size = CA
+            DISKERROR                                             0:3D00
+            ERROR                                                 0:3CCB
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = AB56, Size = 126
+            DISKERR                                             9BA:10C2
+            TRYAGAIN                                            9BA:10A6
+
+    Module A from file EQUIPCHK
+        Segment CODE.CODE, Addr = 3D95, Size = 259
+            EQUIPCHK                                              0:3D95
+            INITMEM                                               0:3EAF
+            WHICHMACHINE                                          0:3DC8
+        Segment DATA.DATA, Addr = AC7C, Size = 18
+            MACHTYPE                                            9BA:10E2
+            MONTYPE                                             9BA:10E4
+            TWODRIVE                                            9BA:10DC
+
+    Module SEGPTR from file SEGPTR
+        Segment CODE.CODE, Addr = 3FEE, Size = 19E
+            GETDIRS                                               0:3FEE
+            GETSTR                                                0:40D6
+            LOGSEG                                                0:4107
+            PICSEG                                                0:4149
+            SNDSEG                                                0:416A
+            VIEWSEG                                               0:4128
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = AC94, Size = 164
+
+    Module EVENT from file EVENT
+        Segment CODE.CODE, Addr = 418C, Size = 1FC
+
+Memory Map for AGI.EXE 10/07/87                                        Page 23 
+
+            BUTTONTOCHAR                                          0:434D
+            CHKACAB                                               0:4309
+            GETKEY                                                0:42B7
+            INITEV                                                0:418C
+            NEXTEVENT                                             0:4212
+            POLLDEVICES                                           0:41B3
+            POSTEVENT                                             0:41C2
+            RESETEV                                               0:419B
+            TRANSLATE                                             0:427F
+            WAITACAB                                              0:4331
+            WAITCHAR                                              0:42F0
+            WAITEVENT                                             0:4242
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = ADF8, Size = 54
+            EBHEAD                                              9BA:12A8
+            EBTAIL                                              9BA:12AA
+
+    Module KBDDRV from file KBDDRV
+        Segment CODE.CODE, Addr = 4388, Size = AA
+            DIRTRANSLATE                                          0:4401
+            FLUSHKBD                                              0:4388
+            ISDIR                                                 0:43CF
+            POLLKBD                                               0:4398
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = AE4C, Size = 0
+
+    Module COLLIDE from file COLLIDE
+        Segment CODE.CODE, Addr = 4432, Size = 19A
+            COLLIDE                                               0:4432
+            DISTANCE                                              0:4508
+            IGNOREOBJS                                            0:44B8
+            OBSERVEOBJS                                           0:44E0
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = AE4C, Size = 0
+
+    Module ADVANCEL from file ADVANCEL
+        Segment CODE.CODE, Addr = 45CC, Size = 11A
+            ADVANCECEL                                            0:45CC
+            FIXLOOP                                               0:4694
+            RELEASELOOP                                           0:46BC
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = AE4C, Size = 0
+
+    Module PICTURE from file PICTURE
+        Segment CODE.CODE, Addr = 46E6, Size = 256
+            DISCARDPIC                                            0:48E7
+            FINDPIC                                               0:4701
+            INITPIC                                               0:46E6
+            LDISCARDPIC                                           0:48C3
+            LLOADPIC                                              0:472F
+            LOADPIC                                               0:4754
+            LOVERLAYPIC                                           0:4830
+            LPICTURE                                              0:47C3
+            OVERLAYPIC                                            0:4854
+            PICTURE                                               0:47E8
+            RESETPIC                                              0:46F5
+            SETUPPERLEFT                                          0:492E
+            SHOWPIC                                               0:489B
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = AE4C, Size = A
+            PICLIST                                             9BA:12AC
+            PICVISIBLE                                          9BA:12B4
+
+Memory Map for AGI.EXE 10/07/87                                        Page 24 
+
+            PREVPIC                                             9BA:12B2
+
+    Module CONTROL from file CONTROL
+        Segment CODE.CODE, Addr = 493C, Size = 80
+            CLEARCONTROL                                          0:493C
+            SETCONTROL                                            0:4956
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = AE56, Size = 32
+            CONTROLLER                                          9BA:12B6
+
+    Module ETC from file ETC
+        Segment CODE.CODE, Addr = 49BC, Size = 352
+            ABS                                                   0:49BC
+            ATOI                                                  0:4ADF
+            GETRANDOM                                             0:4C5B
+            INDEX                                                 0:4CAF
+            ITOA                                                  0:4B1A
+            ITOH                                                  0:4BAB
+            LEADINGZEROS                                          0:4B58
+            LOWER                                                 0:4C3C
+            NOACTION                                              0:4CA3
+            PRI2COORD                                             0:49D4
+            REVERSE                                               0:4C01
+            STOLOWER                                              0:4CE0
+            STRCAT                                                0:4A79
+            STRCMP                                                0:4AB5
+            STRCPY                                                0:4A06
+            STRLEN                                                0:49EB
+            STRNCPY                                               0:4A3A
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = AE88, Size = C
+
+    Module SOUND from file SOUND
+        Segment CODE.CODE, Addr = 4D0E, Size = 19A
+            FINDSND                                               0:4D29
+            INITSND                                               0:4D0E
+            LLOADSND                                              0:4D5B
+            LOADSND                                               0:4D77
+            LSTOPSND                                              0:4E76
+            RESETSND                                              0:4D1D
+            SOUND                                                 0:4E24
+            STOPSND                                               0:4E85
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = AE94, Size = 14
+            PLAYSND                                             9BA:12F4
+            PREVSND                                             9BA:1304
+            SNDENDFLAG                                          9BA:1306
+            SNDLIST                                             9BA:12F6
+
+    Module A from file CMGRAPHX
+        Segment CODE.CODE, Addr = 4EA8, Size = 439
+            BACKTOSCRN                                            0:5197
+            CLOSEWNDW                                             0:525D
+            CLRSHDWRAM                                            0:4EA8
+            COLORFILL                                             0:4F8C
+            DRWHLINE                                              0:4EC0
+            DRWVLINE                                              0:4EFC
+            GETSHDWOFST                                           0:52A5
+            GETVIDOFST                                            0:5275
+            OPENWNDW                                              0:51E1
+            PLOTPOINT                                             0:4F4A
+            SETDISP                                               0:5179
+
+Memory Map for AGI.EXE 10/07/87                                        Page 25 
+
+            XLATCOLOR                                             0:52C4
+        Segment DATA.DATA, Addr = AEA8, Size = E
+
+    Module A from file CMOBJSBR
+        Segment CODE.CODE, Addr = 52E1, Size = 298
+            CANBHERE                                              0:52F7
+            INITPRI                                               0:52E1
+            MIRRORCELL                                            0:54BC
+            OBJ2SCRN                                              0:53A1
+            OBJINPIC                                              0:540E
+            XLATOBJC                                              0:555E
+        Segment DATA.DATA, Addr = AEB6, Size = A8
+            PRI_TBL                                             9BA:1316
+
+    Module FINDPOSN from file FINDPOSN
+        Segment CODE.CODE, Addr = 5579, Size = 124
+            FINDPOSN                                              0:5579
+            GOODPOS                                               0:5653
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = AF5E, Size = 0
+
+    Module A from file MISC
+        Segment CODE.CODE, Addr = 569D, Size = 115
+            FILLMEM                                               0:576B
+            GETCHAR                                               0:56C8
+            GETMODE                                               0:56B3
+            IN                                                    0:5715
+            MOVEBYTE                                              0:5740
+            OUT                                                   0:572A
+            SETMODE                                               0:569D
+            VERIFYGAMEID                                          0:5788
+        Segment DATA.DATA, Addr = AF5E, Size = 5
+
+    Module SAVENAME from file SAVENAME
+        Segment CODE.CODE, Addr = 57B2, Size = 13A
+            MAKESAVEFILENAME                                      0:57B2
+            VALIDPATH                                             0:581C
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = AF63, Size = 3E
+            EXAMPLESAVENAME                                     9BA:13D5
+            SAVEDRIVE                                           9BA:13FF
+
+    Module A from file FILEIO
+        Segment CODE.CODE, Addr = 58EC, Size = 1EE
+            CLOSE                                                 0:5991
+            CREAT                                                 0:58EC
+            DUPLICATE                                             0:59D3
+            FILEDT                                                0:5AB2
+            FINDFIRST                                             0:5A40
+            FINDNEXT                                              0:5A65
+            GETCURDIR                                             0:59F1
+            GETCURDRIVE                                           0:5A29
+            LSEEK                                                 0:59AA
+            OPEN                                                  0:590D
+            READ                                                  0:592E
+            UNLINK                                                0:5974
+            VALIDDRIVE                                            0:5A7D
+            WRITE                                                 0:5951
+        Segment DATA.DATA, Addr = AFA1, Size = 0
+
+    Module A from file CMDATA
+        Segment DATA.DATA, Addr = AFA1, Size = 1AA
+
+Memory Map for AGI.EXE 10/07/87                                        Page 26 
+
+            COLOR                                               9BA:1407
+            CPEVNMSK                                            9BA:140A
+            CPODDMSK                                            9BA:1409
+            DRAWMASK                                            9BA:1405
+            FINISHC                                             9BA:15A9
+            FINISH_COORDS                                       9BA:15A9
+            FONTRAM                                             9BA:1411
+            GHRZ_POS                                            9BA:1401
+            HSP_ADJMT                                           9BA:1403
+            H_RAM                                               9BA:140F
+            PICPTR                                              9BA:1413
+            PICRELOC                                            9BA:1415
+            PRIORITY                                            9BA:1408
+            ROW_TABLE                                           9BA:1417
+            STARTC                                              9BA:15A7
+            START_COORDS                                        9BA:15A7
+            S_RAM                                               9BA:140B
+            THRZ_POS                                            9BA:1402
+            V_RAM                                               9BA:140D
+
+    Module SHOWOBJ from file SHOWOBJ
+        Segment CODE.CODE, Addr = 5ADA, Size = 194
+            SHOWOBJ                                               0:5AFE
+            VSHOWOBJ                                              0:5ADA
+            _SHOWOBJ                                              0:5B1A
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = B14B, Size = A
+
+    Module A from file KBDINT
+        Segment CODE.CODE, Addr = 5C6E, Size = 10F
+            HOLDKEY                                               0:5C6E
+            KBDHANDLER                                            0:5C76
+        Segment DATA.DATA, Addr = B155, Size = 18
+
+    Module JOYDRV from file JOYDRV
+        Segment CODE.CODE, Addr = 5D7D, Size = 282
+            FLUSHBUTTONS                                          0:5F67
+            GETDIR                                                0:5F80
+            INITJOY                                               0:5D7D
+            POLLBUTTONS                                           0:5E9A
+            POLLJOY                                               0:5E33
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = B16D, Size = A0
+            BUTTON                                              9BA:15CD
+            JOYTIMER                                            9BA:1659
+            JPREVDIR                                            9BA:1661
+            JX                                                  9BA:165D
+            JY                                                  9BA:165F
+            ONSTATUS                                            9BA:1657
+            PCJOYMSG                                            9BA:15E5
+
+    Module A from file JOYREAD
+        Segment CODE.CODE, Addr = 5FFF, Size = 82
+            READBUTTONS                                           0:6066
+            READJOY                                               0:5FFF
+        Segment DATA.DATA, Addr = B20D, Size = 0
+
+    Module A from file PICDRAW
+        Segment CODE.CODE, Addr = 6081, Size = 337
+            DRAWPIC                                               0:6086
+            DRWPICNC                                              0:6081
+            POINT                                                 0:6140
+
+Memory Map for AGI.EXE 10/07/87                                        Page 27 
+
+            _DRAWBRUSH                                            0:616B
+        Segment DATA.DATA, Addr = B20D, Size = DA
+
+    Module A from file OVLYM
+        Segment CODE.CODE, Addr = 63B8, Size = A5
+            $OVIN$                                                0:63B8
+            $OVLYM                                                0:63B8
+            OVLOAD                                                0:6404
+        Segment DATA.DATA, Addr = B2E7, Size = 8
+            DATASEG                                             9BA:174B
+            ENDSEG                                              9BA:1747
+            LOADSEG                                             9BA:1749
+            PSPSEG                                              9BA:174D
+
+    Module KEYMAP from file KEYMAP
+        Segment CODE.CODE, Addr = 645D, Size = 0
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = B2EF, Size = 4C
+            DIRECTIONKEY                                        9BA:174F
+            TANDYDIR                                            9BA:1773
+
+    Module RESTORE from file RESTORE
+        Segment CODE.CODE, Addr = 645D, Size = 1C8
+            RESTORE                                               0:645D
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = B33B, Size = 0
+
+    Module ANILIST from file ANILIST
+        Segment CODE.CODE, Addr = 6625, Size = 19E
+            ALLINBACK                                             0:66CF
+            ALLTOSCREEN                                           0:66EC
+            FORCEUPDATE                                           0:6759
+            FREEALLOBJLISTS                                       0:66B2
+            ISSTOPPEDOBJ                                          0:6646
+            ISUPDOBJ                                              0:6625
+            LSTARTUPDATE                                          0:6731
+            LSTOPUPDATE                                           0:6709
+            MAKESTOPPEDLIST                                       0:667E
+            MAKEUPDLIST                                           0:6667
+            RESTOREALL                                            0:6695
+            STARTUPDATE                                           0:67A3
+            STOPUPDATE                                            0:6785
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = B33B, Size = 8
+            STOPPEDLIST                                         9BA:179F
+            UPDATELIST                                          9BA:179B
+
+    Module CYCLE from file CYCLE
+        Segment CODE.CODE, Addr = 67C3, Size = 162
+            ENDOFLOOP                                             0:67EF
+            NORMALCYCLE                                           0:67C3
+            REVERSECYCLE                                          0:682C
+            REVERSELOOP                                           0:6858
+            SETCYCLEFREQ                                          0:6895
+            STARTCYCLING                                          0:68FD
+            STOPCYCLING                                           0:68D8
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = B343, Size = 0
+
+    Module MOTION from file MOTION
+        Segment CODE.CODE, Addr = 6925, Size = 37A
+            FOLLOWEGO                                             0:6A43
+
+Memory Map for AGI.EXE 10/07/87                                        Page 28 
+
+            GETOBJDIR                                             0:6C3D
+            LMOVEOBJ                                              0:6925
+            MOVEOBJF                                              0:69A2
+            NORMALMOTION                                          0:6AE2
+            PLAYERCONTROL                                         0:6C82
+            PROGRAMCONTROL                                        0:6C70
+            SETOBJDIR                                             0:6BFF
+            SETSTEPSIZE                                           0:6B7F
+            SETSTEPTIME                                           0:6BBD
+            STARTMOTION                                           0:6B46
+            STARTWANDER                                           0:6AA9
+            STOPMOTION                                            0:6B09
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = B343, Size = 0
+
+    Module SCRIPT from file SCRIPT
+        Segment CODE.CODE, Addr = 6C9F, Size = 162
+            ADDSCRIPT                                             0:6CF2
+            INITSCRIPT                                            0:6CBD
+            NEXTSCRIPT                                            0:6D8D
+            OPENSCRIPT                                            0:6D70
+            POPSCRIPT                                             0:6DDE
+            PUSHSCRIPT                                            0:6DCC
+            SCRIPTOFF                                             0:6C9F
+            SCRIPTON                                              0:6CAE
+            SETSCRIPTSIZE                                         0:6DAB
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = B343, Size = A
+            DOSCRIPT                                            9BA:17A9
+            MAXSCRIPT                                           9BA:17AB
+            SCRIPT                                              9BA:17A3
+            SCRIPTPTR                                           9BA:17A7
+            SCRIPTTOP                                           9BA:17A5
+
+    Module A from file RANDOM
+        Segment CODE.CODE, Addr = 6E01, Size = 2D
+            RANDOM                                                0:6E01
+        Segment DATA.DATA, Addr = B34D, Size = 2
+            RANDSEED                                            9BA:17AD
+
+    Module DEBUG from file DEBUG
+        Segment CODE.CODE, Addr = 6E2E, Size = 168
+            GETNUM                                                0:6E2E
+            OBJSTATUS                                             0:6EF6
+            SHOWPRISCREEN                                         0:6F5C
+            VERSION                                               0:6F7D
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = B34F, Size = 44
+            SHOWPRI                                             9BA:17F1
+
+    Module A from file VAR
+        Segment CODE.CODE, Addr = 6F96, Size = 12F
+            ADDF                                                  0:6FE9
+            ADDN                                                  0:6FDC
+            ASSIGNF                                               0:6FC9
+            ASSIGNN                                               0:6FBC
+            DECREMENT                                             0:6FA9
+            DIVN                                                  0:708D
+            DIVV                                                  0:70A6
+            INCREMENT                                             0:6F96
+            LINDIRECTF                                            0:701C
+            LINDIRECTN                                            0:7035
+
+Memory Map for AGI.EXE 10/07/87                                        Page 29 
+
+            MULN                                                  0:705F
+            MULV                                                  0:7072
+            RINDIRECT                                             0:7046
+            SUBF                                                  0:7009
+            SUBN                                                  0:6FFC
+        Segment DATA.DATA, Addr = B393, Size = 0
+
+    Module A from file FLAG
+        Segment CODE.CODE, Addr = 70C5, Size = B4
+            CLEARFLAGS                                            0:716B
+            GETFLAG                                               0:7152
+            ISFLAGSET                                             0:7143
+            ISSET                                                 0:7125
+            RESET                                                 0:7111
+            RESETFLAG                                             0:70CC
+            RESETIT                                               0:7135
+            SET                                                   0:7107
+            SETFLAG                                               0:70C5
+            SETIT                                                 0:712F
+            TOGGLE                                                0:711B
+            TOGGLEFLAG                                            0:70D3
+            TOGGLEIT                                              0:713D
+            VRESETFLAG                                            0:70E9
+            VSETFLAG                                              0:70DA
+            VTOGGLEFLAG                                           0:70F8
+        Segment DATA.DATA, Addr = B393, Size = 0
+
+    Module OBJACT from file OBJACT
+        Segment CODE.CODE, Addr = 7179, Size = 192
+            DROP                                                  0:71B1
+            GET                                                   0:7179
+            GETF                                                  0:7195
+            GETROOMF                                              0:7223
+            OBJPTR                                                0:724E
+            OBJVARPTR                                             0:72A4
+            PUT                                                   0:71CD
+            PUTF                                                  0:71F8
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = B393, Size = 0
+
+    Module SCRACT from file SCRACT
+        Segment CODE.CODE, Addr = 730B, Size = 336
+            CONFIGURESCREEN                                       0:7531
+            GRAPHICSSCREEN                                        0:750C
+            LCLEARLINES                                           0:7355
+            LCLEARRECT                                            0:7394
+            LGRAFSCRN                                             0:7343
+            LTEXTSCRN                                             0:730B
+            MAKEBACKCOLOR                                         0:74EE
+            MAKEFORECOLOR                                         0:74E2
+            MAKETEXTATR                                           0:7444
+            RESTORETEXTATR                                        0:7604
+            SAVETEXTATR                                           0:75CA
+            SETTEXTATR                                            0:73F0
+            TOGGLEMONITOR                                         0:758D
+            _SETTEXTATR                                           0:7416
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = B393, Size = 22
+            SAVEDATR                                            9BA:17F5
+            SAVEDINDEX                                          9BA:1813
+            SCREENMODE                                          9BA:17F3
+
+
+Memory Map for AGI.EXE 10/07/87                                        Page 30 
+
+    Module A from file SHAKE
+        Segment CODE.CODE, Addr = 7641, Size = 73
+            SHAKESCREEN                                           0:7641
+        Segment DATA.DATA, Addr = B3B5, Size = B
+
+    Module PRIORITY from file PRIORITY
+        Segment CODE.CODE, Addr = 76B4, Size = CE
+            FSETPRIORITY                                          0:773C
+            GETPRIORITY                                           0:7709
+            RELEASEPRIORITY                                       0:76E4
+            SETPRIORITY                                           0:76B4
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = B3C0, Size = 0
+
+    Module BLOCK from file BLOCK
+        Segment CODE.CODE, Addr = 7782, Size = CC
+            BLOCK                                                 0:7782
+            IGNOREBLOCKS                                          0:77D0
+            INBLOCK                                               0:781A
+            OBSERVEBLOCKS                                         0:77F5
+            UNBLOCK                                               0:77BE
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = B3C0, Size = 0
+
+    Module POSITION from file POSITION
+        Segment CODE.CODE, Addr = 784E, Size = 2C6
+            FLAGPOSN                                              0:788B
+            GETPOSN                                               0:78D8
+            IGNOREHORIZON                                         0:7AC8
+            OBSERVEHORIZON                                        0:7AED
+            ONANYTHING                                            0:7A8B
+            ONLAND                                                0:7A66
+            ONWATER                                               0:7A41
+            POSITION                                              0:784E
+            REPOSITION                                            0:791B
+            REPOSITIONTO                                          0:79AB
+            SETHORIZON                                            0:7AB0
+            VREPOSITIONTO                                         0:79EE
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = B3C0, Size = 0
+
+    Module A from file SETJMP
+        Segment CODE.CODE, Addr = 7B14, Size = 1C
+            LONGJMP                                               0:7B23
+            SETJMP                                                0:7B14
+
+    Module TIMERINT from file TIMERINT
+        Segment CODE.CODE, Addr = 7B30, Size = 9A
+            TIMERINT                                              0:7B30
+            WAITTOANIMATE                                         0:7BAC
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = B3C0, Size = 4
+            ANITIMER                                            9BA:1820
+
+    Module A from file PLAYSND
+        Segment CODE.CODE, Addr = 7BCA, Size = 1B1
+            CONVERTFREQTOPC                                       0:7D60
+            CONVERTTDVOLUME                                       0:7D43
+            PLAYIT                                                0:7C2C
+            PLAYNOTE                                              0:7CEA
+            SOUNDOFF                                              0:7CB9
+            STARTSOUND                                            0:7BCA
+
+Memory Map for AGI.EXE 10/07/87                                        Page 31 
+
+        Segment DATA.DATA, Addr = B3C4, Size = 23
+
+    Module INITMACH from file INITMACH
+        Segment CODE.CODE, Addr = 7D7B, Size = 98
+            INITGRAPHICS                                          0:7DA0
+            INITMACHINE                                           0:7D7B
+            RESETMACHINE                                          0:7DF9
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = B3E7, Size = 2
+            SAVEMODE                                            9BA:1847
+
+    Module LOG from file LOG
+        Segment CODE.CODE, Addr = 7E13, Size = 11E
+            CLOSELOGFILE                                          0:7F10
+            LOG                                                   0:7E13
+            OPENLOGFILE                                           0:7EC3
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = B3E9, Size = 24
+            LOGFILE                                             9BA:1863
+            LOGFILENAME                                         9BA:1865
+
+    Module A from file INTRPT
+        Segment CODE.CODE, Addr = 7F31, Size = 238
+            CRITICALERROR                                         0:813F
+            DEADSTACK                                             0:810C
+            NULLINTERRUPT                                         0:813E
+            RESETINTERRUPTS                                       0:8023
+            SETINTERRUPTS                                         0:7F31
+            TIMERDISPATCH                                         0:80D0
+            TIMERINTHANDLER                                       0:80A5
+        Segment DATA.DATA, Addr = B40D, Size = 43
+            DOSERROR                                            9BA:188D
+            OLDKBD                                              9BA:1881
+            OLDVIDEO                                            9BA:1885
+
+    Module GETGAME from file GETGAME
+        Segment CODE.CODE, Addr = 8169, Size = 6AC
+            CHANGEDISK                                            0:8227
+            ERASEPOINTER                                          0:87F2
+            GETDESCRIPTION                                        0:8723
+            GETGAME                                               0:8169
+            GETGAMENUMBER                                         0:8398
+            GETPATH                                               0:8289
+            GETWINDOWSTR                                          0:8318
+            WRITEPOINTER                                          0:87D2
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = B450, Size = 45C
+            BADPATHMSG                                          9BA:1C5C
+            NEWDESCRIPT                                         9BA:1BEA
+            NOGAMESMSG                                          9BA:1C1C
+            RESTMSG                                             9BA:1A20
+            SAVEDESCRIPT                                        9BA:1CAC
+            SAVEFILE                                            9BA:1CCC
+            SAVEMSG                                             9BA:19C2
+            SAVEPATH                                            9BA:19A2
+            SELECTRESTORE                                       9BA:1B6C
+            SELECTSAVE                                          9BA:1AE8
+            SWAPDISKMSG                                         9BA:1A86
+
+    Module TRACE from file TRACE
+        Segment CODE.CODE, Addr = 8815, Size = 406
+            GETPARM                                               0:8BBB
+
+Memory Map for AGI.EXE 10/07/87                                        Page 32 
+
+            SCROLLTRACE                                           0:8BF8
+            TRACEACTION                                           0:8927
+            TRACEINFO                                             0:88C1
+            TRACEIT                                               0:898F
+            TRACEOFF                                              0:88FD
+            TRACEON                                               0:8815
+            TRACEPARMS                                            0:8AAD
+            TRACETEST                                             0:894D
+            _TRACEON                                              0:8832
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = B8AC, Size = 56
+            ROOMTOTRACE                                         9BA:1D4C
+            SAIDTEST                                            9BA:1D4E
+            TRACEDIVIDER                                        9BA:1D60
+            TRACELOGS                                           9BA:1D52
+            TRACESTATUS                                         9BA:1D50
+            TRWINDOWPOS                                         9BA:1D48
+            TRWINDOWSIZE                                        9BA:1D4A
+            TWBOTTOMROW                                         9BA:1D58
+            TWDIM                                               9BA:1D5E
+            TWLEFTCOL                                           9BA:1D56
+            TWPOS                                               9BA:1D5C
+            TWRIGHTCOL                                          9BA:1D5A
+            TWTOPROW                                            9BA:1D54
+
+    Module SAVEAREA from file SAVEAREA
+        Segment CODE.CODE, Addr = 8C1B, Size = 86
+            FREESAVEAREA                                          0:8C8E
+            GETSAVEAREA                                           0:8C1B
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = B902, Size = 0
+
+    Module MENU from file MENU
+        Segment CODE.CODE, Addr = 8CA1, Size = 5E2
+            CHANGEITEM                                            0:8EE3
+            COMPUTEMENUWINDOW                                     0:920F
+            DESELECT                                              0:91A9
+            DISABLEMENU                                           0:8EC4
+            DOMENU                                                0:8F55
+            ENABLEALLMENUS                                        0:8E92
+            ENABLEMENU                                            0:8E72
+            MENUINPUT                                             0:8F35
+            PUTAWAY                                               0:912D
+            SELECT                                                0:9154
+            SETMENU                                               0:8CA1
+            SETMENUITEM                                           0:8D53
+            SHOWMENU                                              0:90DB
+            SUBMITMENU                                            0:8E3E
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = B902, Size = 14
+            ACTIVATEMENU                                        9BA:1D62
+            CURITEM                                             9BA:1D70
+            CURMENU                                             9BA:1D6E
+            ITEMCOL                                             9BA:1D68
+            ITEMROW                                             9BA:1D66
+            MENUBASE                                            9BA:1D6C
+            MENUCOL                                             9BA:1D64
+            MENUDIM                                             9BA:1D74
+            MENUPOS                                             9BA:1D72
+            MENUSUBMITTED                                       9BA:1D6A
+
+    Module A from file PCJMPTBL
+
+Memory Map for AGI.EXE 10/07/87                                        Page 33 
+
+        Segment CODE.CODE, Addr = 9390, Size = 15
+            BLK2SCRN                                              0:939C
+            DRAWWNDW                                              0:93A2
+            GRAFSCRN                                              0:9396
+            INITGRFX                                              0:9390
+            INITROWS                                              0:939F
+            SETHORZ                                               0:9399
+            TEXTSCRN                                              0:9393
+
+    Module A from file PCGRAPHX
+        Segment CODE.CODE, Addr = 93A5, Size = 297
+            PCB2S                                                 0:9545
+            PCDW                                                  0:95A5
+            PCGS                                                  0:94FB
+            PCIG                                                  0:946B
+            PCIRT                                                 0:9613
+            PCSH                                                  0:9510
+            PCTS                                                  0:94A9
+            PCXC                                                  0:93A5
+            PCXO                                                  0:93C7
+        Segment DATA.DATA, Addr = B916, Size = 62
+            COLORTBL                                            9BA:1D76
+
+    Module A from file JRJMPTBL
+        Segment CODE.CODE, Addr = 9390, Size = 15
+
+    Module A from file JRGRAPHX
+        Segment CODE.CODE, Addr = 93A5, Size = 1BC
+            JRB2S                                                 0:9485
+            JRDW                                                  0:94ED
+            JRGS                                                  0:9422
+            JRIG                                                  0:93A5
+            JRIRT                                                 0:9525
+            JRSH                                                  0:9437
+            JRTS                                                  0:93C9
+        Segment DATA.DATA, Addr = B978, Size = 0
+
+    Module A from file XTJMPTBL
+        Segment CODE.CODE, Addr = 9390, Size = 15
+
+    Module A from file XTGRAPHX
+        Segment CODE.CODE, Addr = 93A5, Size = 240
+            XTB2S                                                 0:9415
+            XTDW                                                  0:949C
+            XTGS                                                  0:93FF
+            XTIG                                                  0:93A5
+            XTIRT                                                 0:9519
+            XTSH                                                  0:9414
+            XTSS                                                  0:954E
+            XTTS                                                  0:93C5
+        Segment DATA.DATA, Addr = B978, Size = 0
+
+    Module A from file HJMPTBL
+        Segment CODE.CODE, Addr = 9390, Size = 15
+
+    Module A from file HGRAPHX
+        Segment CODE.CODE, Addr = 93A5, Size = 43D
+            HB2S                                                  0:94B6
+            HBS                                                   0:9429
+            HCVB                                                  0:95C6
+            HDW                                                   0:9516
+            HIG                                                   0:93A5
+
+Memory Map for AGI.EXE 10/07/87                                        Page 34 
+
+            HIRT                                                  0:95A4
+            HSH                                                   0:9428
+            HSS                                                   0:9773
+            HTS                                                   0:93F9
+            HVIDEOINT                                             0:95DA
+        Segment DATA.DATA, Addr = B978, Size = 90
+            PATRNMASKS                                          9BA:1DE8
+
+    Module HDIALOG from file HDIALOG
+        Segment CODE.CODE, Addr = 97E2, Size = 154
+            CLOSEDIALOGUE                                         0:9923
+            GETDIALOGUE                                           0:98BB
+            OPENDIALOGUE                                          0:97E2
+        Segment CONST.CONST, Addr = BAB0, Size = 0
+        Segment DATA.DATA, Addr = BA08, Size = 14
+            ENTERCMNDSTR                                        9BA:1E6E
+
+    Module A from file VGJMPTBL
+        Segment CODE.CODE, Addr = 9390, Size = 15
+
+    Module A from file VGGRAPHX
+        Segment CODE.CODE, Addr = 93A5, Size = 102
+            VGB2S                                                 0:9416
+            VGDW                                                  0:9469
+            VGGS                                                  0:9400
+            VGIG                                                  0:93A5
+            VGIRT                                                 0:9494
+            VGSH                                                  0:94A6
+            VGTS                                                  0:93C7
+        Segment DATA.DATA, Addr = BA1C, Size = 0
+
+    Module A from file IOJMPTBL
+        Segment CODE.CODE, Addr = 9940, Size = 9
+            INSERTOBJ                                             0:9946
+            RESTBACK                                              0:9943
+            SAVEBACK                                              0:9940
+
+    Module A from file IOBJSBRS
+        Segment CODE.CODE, Addr = 9949, Size = 14C
+            IIO                                                   0:99C5
+            IRSB                                                  0:9988
+            ISSB                                                  0:9949
+        Segment DATA.DATA, Addr = BA1C, Size = 0
+
+    Module A from file HOJMPTBL
+        Segment CODE.CODE, Addr = 9940, Size = 9
+
+    Module A from file HOBJSBRS
+        Segment CODE.CODE, Addr = 9949, Size = 24E
+            HIO                                                   0:9A1F
+            HRSB                                                  0:99B4
+            HSSB                                                  0:9949
+        Segment DATA.DATA, Addr = BA1C, Size = 6
