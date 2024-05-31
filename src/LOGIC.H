@@ -18,18 +18,3 @@ typedef	struct	scanOfsStrc {
 	COUNT	num;					/* logic number */
 	COUNT	ofs;					/* offset to scan start */
 	}	SCANOFS;
-/* SAVEAREA
-** Header for save areas
-*/
-
-typedef	struct	saveStruc {
-	struct	saveStruc	*next;		/* pointer to next save area */
-	struct	saveStruc	*prev;		/* pointer to previous save area */
-	ANIOBJ	*theObject;			/* pointer to object */
-	COUNT	x;					/* x position of saved area */
-	COUNT	y;					/* y position of saved area */
-	COUNT	width;				/* width of saved area */
-	COUNT	height;				/* height of saved area */
-	STRPTR	bitMap;				/* the save area bit map */
-	}	SAVEAREA;
-
