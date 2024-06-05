@@ -1,5 +1,3 @@
-#define	PRODUCTION	TRUE
-
 /* DIRSEGIO
 ** The segment definitions for production i/o
 */
