@@ -50,7 +50,9 @@ popa	macro
 
 
 bios	macro	interrupt,function
+ifnb	<function>
 	mov	ah,function
+endif
 	int	interrupt
 	endm
 
