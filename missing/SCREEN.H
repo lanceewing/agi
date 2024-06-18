@@ -15,3 +15,8 @@
 #define MONO    2   /* Hercules Graphics Card */
 #define EGA     3   /* Enhanced Graphics Adapter */
 #define VGA     4   /* Video Graphics Array */
+
+/* Picture relocation factors used in configure.screen command
+*/
+#define HGC_RELOC_FACTOR    6
+#define IBM_RELOC_FACTOR    8
