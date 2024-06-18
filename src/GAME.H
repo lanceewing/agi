@@ -27,7 +27,8 @@
 #define	ST			4		/* Atari ST */
 #define	AMIGA		5		/* Amiga */
 #define	MAC			6		/* Fat Mac */
-#define	CORTLAND		7		/* ? */
+#define	CORTLAND	7		/* Apple IIgs */
+#define	PS2			8		/* PS2 */
 
 
 
