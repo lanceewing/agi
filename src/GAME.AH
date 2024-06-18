@@ -16,6 +16,7 @@ STACKFLAG	equ	0aaaah		;flag for base of stack
 PC	equ	0	;PC, XT
 JR	equ	1	;PCjr
 TD	equ	2	;Tandy 1000
+PS2	equ	8	;PS2
 
 
 
