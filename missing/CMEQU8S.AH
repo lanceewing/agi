@@ -7,3 +7,41 @@
 ;file. If this file contains code, then it is because an attempt has been made
 ;to reconstruct what it might have looked like using a disassembly tool.
 
+
+;Monitor types
+COMP    equ     0   ;Composite, or CGA (Black-Cyan-Magenta-White palette)
+RGB     equ     1   ;RGB (Blue-Green-Red-Brown palette)
+MONO    equ     2   ;Hercules Graphics Card
+EGA     equ     3   ;Enhanced Graphics Adapter
+VGA     equ     4   ;Video Graphics Array
+
+
+;Machine types (these are in GAME.AH; not sure why it is also needed here)
+PC	equ	0	;PC, XT
+
+
+; Bios video calls
+ScrollUp    equ     6       ;Scroll page up
+WrtChar     equ     9       ;Write attributes/character(s) at cursor position
+
+
+;Number of words in shadow ram
+PAGELEN     equ     3480h
+
+;Length of one line in shadow ram, i.e. 160 bytes
+shdw_lnth   equ     0A0h
+
+;Left end of last shadow line
+sbotm_ln    equ     6860h
+
+
+y_max       equ     167
+x_min       equ     0
+PICROWS     equ     168
+
+
+;color/priority background pattern when filling (4Fh)
+WHITEBKGD  equ     4Fh
+
+;priority 4, colour 0
+BLACKBKGD  equ     4040h
