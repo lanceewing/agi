@@ -369,6 +369,9 @@ $jmp_if		macro	test_type,prefix,num
 	ifidn <test_type>,<below>
 		$jmp_below prefix,num
 	endif
+	ifidn <test_type>,<not_below>
+		$jmp_not_below prefix,num
+	endif
 	ifidn <test_type>,<above>
 		$jmp_above prefix,num
 	endif
