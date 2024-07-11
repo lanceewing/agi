@@ -46,6 +46,7 @@ not_equal		equ		not_equal
 less			equ		less
 greater			equ		greater
 above			equ		above
+above_equal		equ		above_equal
 below			equ		below
 below_equal		equ		below_equal
 carry			equ		carry
@@ -283,6 +284,10 @@ $jmp_not_above	macro	prefix,num
 	jna	&prefix&num
 	endm
 
+$jmp_above_equal	macro	prefix,num
+	jae &prefix&num
+	endm
+
 $jmp_below	macro	prefix,num
 	jb	&prefix&num
 	endm
@@ -333,6 +338,9 @@ $jmp_if_not		macro	test_type,prefix,num
 	ifidn <test_type>,<below_equal>
 		$jmp_above prefix,num
 	endif
+	ifidn <test_type>,<above_equal>
+		$jmp_below prefix,num
+	endif
 	ifidn <test_type>,<negative>
 		$jmp_not_sign prefix,num
 	endif
@@ -374,6 +382,9 @@ $jmp_if		macro	test_type,prefix,num
 	endif
 	ifidn <test_type>,<above>
 		$jmp_above prefix,num
+	endif
+	ifidn <test_type>,<above_equal>
+		$jmp_above_equal prefix,num
 	endif
 	ifidn <test_type>,<below_equal>
 		$jmp_below_equal prefix,num
@@ -426,6 +437,10 @@ breakif		macro	test_type
 
 continue	macro
 	$jmp_uncond DoStart,%DoBlkNum
+	endm
+
+continueif	macro	test_type
+	$jmp_if	test_type,DoStart,%DoBlkNum
 	endm
 
 retif		macro	test_type
